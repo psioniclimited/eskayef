@@ -1,0 +1,5504 @@
+/* ----------------------------------------------------------------
+    Custom CSS
+
+    Add all your Custom Styled CSS here for New Styles or
+    Overwriting Default Theme Styles for Better Hanlding Updates
+    -----------------------------------------------------------------*/
+
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript,
+if it's not present, don't show loader */
+
+/*Starting Common Styles for Header and Paragraph*/
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+p {
+    font-family: 'Open Sans', sans-serif !important;
+}
+label {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+}
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../images/custom-images/logo/SKF-Loader.gif) center no-repeat #fff;
+}
+
+::selection {
+    background: #007dbe !important;
+    color: #FFF;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #007dbe !important; /* Firefox */
+    color: #FFF;
+    text-shadow: none;
+}
+
+::-webkit-selection {
+    background: #007dbe !important; /* Safari */
+    color: #FFF;
+    text-shadow: none;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Montserrat';
+}
+::-web-kit-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Montserrat';
+
+}
+
+::-moz-placeholder {
+    font-family: 'Montserrat';
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Montserrat';
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: 'Montserrat';
+}
+::-moz-input-placeholder { /* Microsoft Edge */
+    font-family: 'Montserrat';
+}
+label {
+    font-family: 'Montserrat' !important;
+}
+.entry:after {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.entry-title h2 a {
+    font-family: 'Montserrat';
+}
+.entry-meta li {
+    font-family: 'Montserrat';
+}
+.entry-title h2 a:hover {
+    color: rgb(36, 152, 227);
+}
+.form-control {
+    font-family: 'Montserrat' !important;
+}
+
+.skf-header {
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.custom-header-option-for-mobile-only {
+    display: none;
+}
+
+.custom-header-option-for-mobile-only .header-option-holder-div-for-mobile i {
+    margin-right: 20px;
+}
+
+.header-option-holder-div-for-mobile {
+    text-align: center;
+}
+
+.news-blue-logo-mobile {
+    width: 11%;
+}
+.career-logo-blue-mobile {
+    width: 12%;
+}
+.facebook-blue-mobile {
+    width: 8.4%;
+}
+.youtube-blue-mobile {
+    width: 10%;
+}
+
+.skf-paragraph {
+    /*max-width: 1470px;*/
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 40px !important;
+}
+.heading-block .skf-header {
+    font-family: 'Montserrat';
+    color: rgb(36, 152, 227);
+    font-weight: 600;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+.heading-block ~ .skf-paragraph:not(.lead) {
+    /*max-width: 1470px;*/
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 40px !important;
+}
+
+.product-title h3 a, .single-product .product-title h2 a {
+    font-family: 'Montserrat';
+    color: #333;
+}
+
+.product-title h3 a:hover, .single-product .product-title h2 a:hover {
+    font-family: 'Montserrat';
+    color: #007dbe;
+}
+.owl-carousel .owl-nav [class*=owl-]:hover {
+    background-color: #007dbe !important;
+}
+body, h1, h2, h3, h4, h5 {
+    overflow-x: hidden;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4 !important;
+    letter-spacing: 0.03em;
+}
+
+.heading-block h1, .heading-block h1 > span:not(.nocolor):not(.badge) {
+    color: rgb(36, 152, 227);
+}
+
+/*Ending Common Styles for Header and Paragraph*/
+
+
+#landing-page-carousel-video{
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.carousel-caption-holder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    -webkit-transform: translate(-50%, -90%);
+    -moz-transform: translate(-50%, -90%);
+}
+
+.carousel-caption-h1  {
+    font-family: 'Montserrat';
+    z-index: 5;
+    white-space: nowrap;
+    border-width: 0px;
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    line-height: 74px;
+    margin-bottom: 20px;
+    padding: 0px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    font-size: 64px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
+    color: #fff;
+    overflow: hidden;
+}
+.carousel-caption-p {
+    font-family:  'Open Sans', sans-serif;
+    z-index: 7;
+    white-space: nowrap;
+    line-height: 35px;
+    font-style: italic;
+    border-width: 0px;
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 25px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
+}
+
+.carousel-caption-h1 .custom-carousel-caption-h1-span {
+    color: rgb(36, 152, 227) !important;
+    transition: none 0s ease 0s;
+    text-align: left;
+    line-height: 74px;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    font-size: 64px;
+}
+
+
+.carousel-control-prev.custom-carousel-control-prev {
+    left: 0;
+    background: rgba(0,0,0,.5);
+    width: 30px;
+    height: 120px;
+    top: 46%;
+    transform: translateY(-85%);
+    -webkit-transform: translateY(-85%);
+    -moz-transform: translateY(-85%);
+    opacity: 0;
+    transition: 1.5s;
+}
+
+#carouselExampleIndicators:hover .carousel-control-prev.custom-carousel-control-prev {
+    opacity: 1;
+}
+.carousel-control-next.custom-carousel-control-next {
+    right: 0;
+    background: rgba(0,0,0,.5);
+    width: 30px;
+    height: 120px;
+    top: 46%;
+    transform: translateY(-85%);
+    -webkit-transform: translateY(-85%);
+    -moz-transform: translateY(-85%);
+    opacity: 0;
+    transition: 1.5s;
+}
+#carouselExampleIndicators:hover .carousel-control-next.custom-carousel-control-next {
+    opacity: 1;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none;
+    width: 15px;
+    height: 15px;
+    transition: .5s;
+    box-shadow: -2px 2px 0 rgba(255, 255, 255, .8);
+    -webkit-box-shadow: -2px 2px 0 rgba(255, 255, 255, .8);
+    -moz-box-shadow: -2px 2px 0 rgba(255, 255, 255, .8);
+}
+.carousel-control-prev-icon {
+    margin-left: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+}
+.carousel-control-next-icon {
+    margin-right: 10px;
+    transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+}
+
+.custom-about-skf-section {
+    margin-bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.horizontal-divider{
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255,255,255,0.6);
+}
+.animated {
+    opacity: 1;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+.st66 {
+    cursor: pointer;
+    stroke:#14254B;
+    fill: #fff;
+    stroke-dasharray: 10000;
+    stroke-dashoffset: 10000;
+    opacity: 0.1;
+    animation: dash-terminal 6s linear infinite;
+}
+@-webkit-keyframes dash-terminal {
+    to {
+        stroke-dashoffset: 0;
+        stroke:#EAEAEA;
+        opacity: 1;
+    }
+}
+
+@keyframes dash-terminal {
+    to {
+        stroke-dashoffset: 0;
+        stroke:#EAEAEA;
+        opacity: 1;
+    }
+}
+
+#Layer_1 {
+    width: 165%;
+    margin-bottom: -70%;
+}
+
+.custom-skf-facility-section-div{
+    margin-bottom: 0px;
+}
+.custom-skf-facility-div{
+    position: absolute;
+    top: 40%;
+    transform: translate(0%,-40%);
+    -webkit-transform: translate(0%,-40%);
+    -moz-transform: translate(0%,-40%);
+}
+.custom-skf-facility-h1{
+    font-family: 'Montserrat';
+    color: #007dbe;
+    margin-bottom: 10px;
+}
+.custom-skf-facility-p{
+    font-family:  'Open Sans', sans-serif;
+    color: #fff;
+    line-height: 40px !important;
+}
+.custom-skf-facility-btn {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 7px 20px;
+    color: #fff;
+    background: #007dbe;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.custom-skf-facility-btn:hover {
+    background: #026498;
+}
+
+#main {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    background:#001a41;
+    /*background: radial-gradient(rgba(0,0,0,0), rgba(0,0,0,.95) 150%);*/
+    text-align:center;
+    min-width:500px;
+    min-height:500px;
+    padding-bottom: 230px;
+}
+
+#custom-globe-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 350px 0;
+    background:url(../../assets/images/custom-images/globe/stars.png) center center;
+}
+
+#globe, #clouds1, #clouds2 {
+    box-shadow: inset -20px -10px 200px rgba(0,0,0,1), inset -5px -5px 50px rgba(0,0,0,.75), 0 0 50px rgba(12,111,180,.75);
+    border-radius:50%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    width:489px;
+    height:498px;
+    overflow:hidden;
+    background:url(../../assets/images/custom-images/globe/map.jpg) repeat-x left top;
+    z-index:10;
+    border:solid rgba(10,100,150,.85) 1px;
+    box-sizing:border-box;
+}
+
+#clouds1 {
+    transform:rotate(-2deg);
+    box-shadow: inset -90px -10px 100px rgba(0,0,0,.7);
+    z-index:100;
+    background:url(../../assets/images/custom-images/globe/cloud.png);
+}
+
+#clouds2 {
+    transform:rotate(2deg);
+    box-shadow: none;
+    z-index:99;
+    background:url(../../assets/images/custom-images/globe/cloud.png) center;
+    background-size:100%;
+    opacity:.5;
+}
+
+.custom-skf-globe-div{
+    position: absolute;
+    width: 800px;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%,-87%);
+    -webkit-transform: translate(-50%,-87%);
+    -moz-transform: translate(-50%,-87%);
+}
+.custom-skf-globe-h1{
+    font-family: 'Montserrat';
+    color: #fff;
+    margin-bottom: 30px;
+}
+.custom-skf-globe-btn {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 7px 20px;
+    color: #fff;
+    background: #007dbe;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.custom-skf-globe-btn:hover {
+    background: #026498;
+}
+
+.custom-skf-pharma-video-div{
+    position: absolute;
+    width: 100%;
+    top: 85%;
+    left: 0%;
+    transform: translate(-50%,-85%);
+    -webkit-transform: translate(-50%,-85%);
+    -moz-transform: translate(-50%,-85%);
+    text-align: center;
+}
+.custom-skf-pharma-video-h1{
+    font-family: 'Montserrat';
+    color: #fff;
+    margin-bottom: 20px;
+}
+.custom-skf-pharma-video-p{
+    font-family: 'Montserrat';
+    color: #fff;
+    margin-bottom: 30px;
+}
+.custom-skf-pharma-video-btn {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 7px 20px;
+    color: #fff;
+    background: #007dbe;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.custom-skf-pharma-video-btn:hover {
+    background: #026498;
+}
+.dark #copyrights {
+    background-color: #015c8a;
+    color: rgba(255,255,255,0.25);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    opacity: .9;
+}
+
+
+
+
+
+
+
+/***********************************************************INTRODUCTION PAGE STARTS FROM HERE*************************************************************************************/
+
+/*intro-page timeline-img section starts here*/
+.skf-intro-page-small-timeline-img-mobile, .skf-intro-page-office-img-mobile {
+    display: none;
+}
+/*intro-page timeline section ends here*/
+
+
+/*intro-page Latifur-Rahman section starts here*/
+.skf-latifur-rahman-section-div {
+    background-color: transparent;
+}
+.skf-latifur-rahman-row{
+    text-align: justify;
+}
+.custom-about-skf-p.skf-paragraph.custom-latifur-rahmain-paragraph {
+    text-align: left;
+    padding: 0;
+}
+.custom-latifur-rahmain-header {
+    font-weight: 600;
+}
+
+/*intro-page Latifur-Rahman section ends here*/
+
+/*intro-page Simeen-Hossain section starts here*/
+.skf-simeen-hossain-section-div {
+    background-color: transparent;
+}
+.skf-simeen-hossain-row{
+    text-align: justify;
+}
+.simeen-hossain-p1 {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.simeen-hossain-p2, .simeen-hossain-p3, .simeen-hossain-p4 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
+.custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph {
+    color: #fff;
+}
+
+/*intro-page Simeen-Hossain section ends here*/
+
+/*intro-page Core Values section starts here*/
+.skf-intro-page-core-values-row{
+    text-align: center;
+}
+.skf-intro-page-core-values-row .col-md-2 {
+    text-align: center;
+}
+.core-values-h5 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+/*intro-page Core Values section ends here*/
+
+/*intro-page Executive Member section starts here*/
+.skf-intro-page-executive-management-row{
+    text-align: center;
+}
+.skf-intro-page-executive-management-row .col-md-3, .skf-intro-page-executive-management-row .col-md-12 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.executive-management-h5 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.executive-management-header {
+    font-family: 'Montserrat';
+    letter-spacing: 0.08em;
+    font-size: 16px;
+    color: #494848;
+}
+.executive-management-header.executive-management-header-simeen-hossain {
+    font-size: 25px;
+}
+
+.executive-management-p {
+    font-family: 'Montserrat';
+    color: #007dbe;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/*intro-page Executive Member section ends here*/
+
+/***********************************************************INTRODUCTION PAGE ENDS FROM HERE*************************************************************************************/
+
+
+
+
+
+
+/*** Header section starts here ***/
+
+/*Styles for newly edited Header*/
+/*#primary-menu ul ul:not(.mega-menu-column), #primary-menu ul li .mega-menu-content {*/
+/*background-color: rgba(0, 125, 190, 0.9);*/
+/*}*/
+#primary-menu ul li .mega-menu-content, #primary-menu ul ul:not(.mega-menu-column) {
+    border-top-color: #007dbe;
+}
+#primary-menu ul li:hover > a, #primary-menu ul ul li:hover > a, #primary-menu ul li:hover > a,
+#primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a:hover {
+    color: #007dbe;
+}
+#top-bar{
+    z-index: 100;
+    border-bottom: none;
+}
+#top-bar .col_half {
+    width: auto;
+    left: -25px;
+}
+
+.custom-icon-for-header{
+    color: #fff;
+}
+
+.custom-icon-for-header > img{
+    width: 30px;
+    height: 30px;
+}
+
+#header.transparent-header.floating-header {
+    margin-top: 0px;
+}
+
+#top-social .no-border-on-left{
+    border-left: none;
+    left: 4%;
+}
+
+.cutom-tag-a-class-for-hr:hover, .si-colored.cutom-tag-a-class-for-hr {
+    background-color: #007dbe;
+}
+
+#header.transparent-header.floating-header .container {
+    background-color: transparent;
+
+    padding: 0px 38px;
+    padding-left: 0px;
+}
+
+.cutom-tag-a-class-for-news:hover{
+    background-color: #007dbe;
+}
+
+/*Styles for newly Edited Header*/
+
+
+
+/*Styles for newly Edited Contact-contents*/
+
+.heading-block.custom-heading-block-for-conatct-corporate-office > h3{
+    text-transform: none;
+    font-size: 23px;
+    color: #2c2c2c;
+    margin-top: 15px;
+
+}
+
+.heading-block.custom-heading-block-for-conatct-corporate-office > span{
+
+    width: 31%;
+    font-size: 16.5px;
+    font-weight: 400;
+}
+/*End of Styles for newly Edited Contact-contents*/
+
+
+
+/*Styles for newly Edited Contact-contents*/
+
+#datatable1{
+    color: #393939;
+}
+/*End of Styles for newly Edited Contact-contents*/
+
+
+
+
+
+/* Remove top space from the floating header*/
+#header.transparent-header.floating-header + #page-title.page-title-parallax {
+    top: -160px;
+    margin-bottom: -160px;
+}
+
+
+#header.transparent-header.floating-header.sticky-header .container #primary-menu ul li > a,
+#header.transparent-header.floating-header.sticky-header .container #top-search a,
+#header.transparent-header.floating-header.sticky-header .container #top-search form input {
+    color: #666;
+}
+
+#primary-menu ul li > a {
+    font-family: 'Montserrat' !important;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+#primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a {
+    font-family: 'Montserrat' !important;
+}
+#primary-menu ul ul li > a{
+    font-family: 'Montserrat' !important;
+}
+/* On sticky menu change color on hover */
+#primary-menu.menu a:hover,
+#header.transparent-header.floating-header.sticky-header .container #primary-menu.menu ul li > a:hover {
+    color: #2e8ece;
+}
+
+#top-search a, #top-cart > a, #side-panel-trigger a, #top-account a,
+#top-search form input,
+.three-col-sec h3, .three-col-sec p {
+    font-family: 'Montserrat' !important;
+    color: #fff;
+}
+
+.three-col-sec p {
+    font-family: 'Montserrat' !important;
+    font-size: 16px;
+}
+.icon-spacing {
+    margin-right: 16px;
+}
+
+/* Change font color on woocommerce single product page */
+#primary-menu.menu-shop ul li > a {
+    font-family: 'Montserrat' !important;
+    color: #444;
+    font-size: 15px;
+}
+/* On hover show the given color on woocommerce single product page */
+#primary-menu.menu-shop a:hover,
+#header.transparent-header.floating-header.sticky-header .container #primary-menu.menu-shop ul li > a:hover {
+    color: #2e8ece;
+}
+
+#primary-menu.menu-shop ul ul li > a {
+    font-family: 'Montserrat' !important;
+    font-size: 12px;
+    font-weight: 600;
+    color: #666;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    letter-spacing: 0;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+#header.transparent-header.floating-header.sticky-header .container #primary-menu-shop ul li > a,
+#header.transparent-header.floating-header.sticky-header .container #top-search a,
+#header.transparent-header.floating-header.sticky-header .container #top-search form input {
+    color: #666;
+}
+
+.menu-shop #top-search a {
+    color: #666;
+}
+
+
+
+
+/*** Header section ends here ***/
+
+/*** Hover effect customization starts here ***/
+
+/*---------------*/
+/***** Chico *****/
+/*---------------*/
+.grid {
+    position: relative;
+    margin: 0 auto;
+    padding: 1em 0 4em;
+    max-width: 1550px;
+    list-style: none;
+    text-align: center;
+    padding-left: 40px;
+}
+.grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    max-width: 480px;
+    max-height: 360px;
+    width: 30%;
+    background: #000000;
+    text-align: center;
+    cursor: pointer;
+}
+.grid figure h2{
+    font-family: 'Montserrat';
+    color: #fff;
+    font-weight: 600;
+    word-spacing: 0em;
+    letter-spacing: 0.05em;
+}
+.grid figure figcaption {
+    text-transform: none;
+}
+.grid figure p {
+    font-family: 'Montserrat';
+    font-size: 90.5%;
+}
+#content p {
+    line-height: 1.2;
+    padding-top: 5px;
+}
+
+figure.effect-chico h2 {
+    /*padding: 0;*/
+}
+
+/*** Hover effect customization ends here ***/
+
+/* Copyright text */
+.copyright-text {
+    text-align:center;
+}
+
+/* Timeline */
+
+.cd-timeline-content {
+    background: #d7e4ed;
+}
+
+.cd-timeline-content p {
+    font-size: 16px;
+}
+
+.timeline-heading {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Place it 30px down from the heading, to stop overlapping*/
+#cd-timeline::before {
+    top: 30px;
+}
+
+.cd-timeline-img.cd-picture {
+    background: #0facee;
+}
+
+.cd-timeline-img h4 {
+    display: block;
+    position: relative;
+    left: 40%;
+    top: 44%;
+    margin-left: -13px;
+    margin-top: -12px;
+    color: #fff;
+}
+
+/* Datatable */
+#datatable1 {
+    font-size: 18px;
+    color: #fff;
+}
+
+#datatable1 .counter {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Collapsible divs */
+/* Enable pointer on mouse hover */
+.biography {
+    margin-top: 10px;
+    cursor: pointer; cursor: hand;
+}
+
+
+/* Icon when the collapsible content is shown */
+.btn:after {
+    font-family: 'Lato', sans-serif;
+    content: "\2212";
+    float: right;
+}
+/* Icon when the collapsible content is hidden */
+.btn.collapsed:after {
+    font-family: 'Lato', sans-serif;
+    content: "\2b";
+    float: right;
+}
+
+#bootstrap-overrides .panel-group .panel {
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+#bootstrap-overrides .panel-default {
+    border-color: transparent;
+}
+#bootstrap-overrides .panel-default > .panel-heading {
+    color: #333333;
+    background-color: transparent;
+    border-color: #dddddd;
+}
+#bootstrap-overrides .panel-heading {
+    padding: 10px 0px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+#bootstrap-overrides h4 .title-text {
+    color: #000;
+    margin-left: 10px;
+}
+
+
+
+/* Done by Habib, starts here*/
+
+.lead-custom {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.col_one_third {
+    margin-bottom: 30px;
+}
+.col_one_third h4 {
+    margin-bottom: 20px;
+}
+
+.core-values img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+/* Fix margin on history section */
+.history-custom-margin {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 16px;
+}
+
+.history-body {
+    /*padding-left: 10%;*/
+    margin-left: 10px;
+}
+
+.director-attribute {
+    font-size: 18px;
+}
+
+/*.key-milestones-title  {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    }*/
+
+.cd-horizontal-timeline .events-content h2 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.cd-horizontal-timeline .events-content p {
+    color: white;
+    padding-top: 12px;
+}
+
+.cd-horizontal-timeline .events-content h2 {
+    margin-top: 2%;
+    font-size: 28px;
+}
+
+.cd-horizontal-timeline .events a {
+    color: white;
+    font-weight: bold;
+}
+
+.heading-block h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #2e8ece;
+}
+.heading-block ~ p:not(.lead) {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.country-group p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Done by Habib, ends here */
+
+/* Woocommerce single product page */
+.woocommerce-product-details__short-description ul li,
+.woocommerce-Tabs-panel ul li {
+    margin-left: 30px;
+}
+
+.page-title-parallax {
+    margin-top: -62px;
+}
+
+/* Add left padding to woocommerce product summary */
+.woocommerce div.product div.summary {
+    padding-left: 48px;
+}
+
+/* Product archive page */
+.ajax_add_to_cart {
+    display: none !important;
+}
+
+.owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled {
+    display: unset;
+}
+
+/* Single shop page */
+.flex-control-nav.flex-control-thumbs {
+    position: relative;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin: 2px -2px -2px 0;
+    height: 100%;
+}
+
+.woocommerce div.product .product_title, .woocommerce-product-details__short-description h4 {
+    color: #2e8ece;
+}
+
+/* Horizontal timeline customization, starts here */
+.cd-horizontal-timeline .timeline {
+    max-width: none;
+    width: 65%;
+}
+.cd-horizontal-timeline {
+    margin-top: 2%;
+    /*background-color: rgba(242, 242, 242, 0.1);*/
+}
+
+.cd-horizontal-timeline .filling-line {
+    background-color: #2e8ece;
+}
+
+.cd-horizontal-timeline .events-wrapper::before{
+    opacity: 0;
+}
+
+.cd-horizontal-timeline .events-wrapper::after{
+    opacity: 0;
+}
+
+/* Override green color to blue color, starts here */
+.cd-horizontal-timeline .filling-line {
+    background-color: #2e8ece;
+}
+
+.no-touch .cd-horizontal-timeline .events a:hover::after {
+    background-color: #2e8ece;
+    border-color: #2e8ece;
+}
+
+.cd-horizontal-timeline .events a.selected::after {
+    background-color: #2e8ece;
+    border-color: #2e8ece;
+}
+
+.cd-horizontal-timeline .events a.older-event::after {
+    border-color: #2e8ece;
+}
+
+.no-touch .cd-timeline-navigation a:hover {
+    border-color: #2e8ece;
+}
+
+a {
+    color: #2e8ece;
+}
+/* Override green color to blue color, ends here */
+
+/*.events-content h2:before{
+    content:"\2022";
+    color:#fff;
+    padding-right: 10px;
+}
+.timeline-paragraph {
+    padding-left: 1.5%;
+    }*/
+
+/* Horizontal timeline customization, ends here */
+
+.history-image {
+    float:left;
+    margin:10px 20px 20px 20px;
+    left: 50%;
+    margin-left: -30px;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+
+.custom-section {
+    background-color: #F9F9F9;
+    padding: 60px 0;
+}
+
+.ceo-section {
+    background: url('../images/custom-images/SKF-CEO-MD.jpg') 80%;
+    padding: 100px 0;
+}
+
+.flex-control-nav {
+    padding-right: 10px;
+}
+#slider-arrow-right, .camera_next, #slider .owl-next, .flex-next, .nivo-nextNav {
+    margin-right: 15px;
+}
+
+.woocommerce-product-details__short-description p i {
+    padding-right: 5px;
+}
+
+.product_meta .posted_in a {
+    padding-left: 2px;
+}
+/* Add bottom margin on map div headings*/
+.custom-margin {
+    margin-bottom: 15px;
+}
+/* Add left margin on map div on asia section */
+.custom-heading {
+    margin-left: 85px;
+}
+
+.slick-list {
+    overflow: visible;
+}
+
+/**************************************************** ESKAYEF FACILITIES PAGE start here ****************************************************/
+.facilities-custom-row-for-virtual-tour {
+    padding: 0 120px;
+}
+.facilities-custom-circular-div-for-virtual-tour {
+    margin-bottom: 30px;
+}
+
+/***************************************************** ESKAYEF FACILITIES PAGE end here *****************************************************/
+
+
+
+
+
+/****************************************************** Styles for newly Edited Contact-contents COnatact Page ******************************/
+
+.heading-block.custom-heading-block-for-conatct-corporate-office > h3{
+    text-transform: none;
+    font-size: 23px;
+    color: #2c2c2c;
+    margin-top: 15px;
+
+}
+
+.heading-block.custom-heading-block-for-conatct-corporate-office > span{
+
+    width: 31%;
+    font-size: 16.5px;
+    font-weight: 400;
+}
+/*End of Styles for newly Edited Contact-contents*/
+
+
+
+/*Styles for newly Edited Contact-dataTables*/
+
+
+/* Datatable */
+
+#datatable1 > thead{
+    font-size: 18px !important;
+
+}
+
+.table-header span{
+    position: relative;
+    left: 10px !important;
+}
+
+tbody tr td.table-data {
+    vertical-align: middle !important;
+    font-size: 16px !important;
+}
+
+tbody tr td.table-data-second-third-col{
+    width: 40% !important;
+}
+
+tbody tr td.table-data span{
+    position: relative;
+    left: 10px;
+    color: #000;
+}
+
+
+.table-map-header {
+    text-align: center;
+
+}
+
+table.dataTable thead > tr > th.table-map-header{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#datatable1 {
+
+    font-size: 16px !important;
+
+}
+
+#datatable1 .counter {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after{
+
+    display: none;
+
+
+}
+
+
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    border-bottom-width: 0px;
+    line-height: 36px;
+    color: #000;
+}
+
+
+#datatable1_paginate{
+    float: left;
+}
+
+#datatable1_info{
+    /*display: none;*/
+}
+
+#datatable1_wrapper > div:nth-child(3) > div.col-sm-7 {
+    display: none;
+}
+
+#datatable1_wrapper > div:nth-child(3) > div.col-sm-5{
+    padding-left: 0;
+}
+
+#datatable1_filter{
+    display: none;
+
+}
+
+
+#datatable1_length > label > select > option:nth-child(3){
+    display: none;
+}
+
+#datatable1_length > label > select > option:nth-child(4){
+    display: none;
+}
+
+
+
+.heading-block.custom-heading-block-for-conatct-distribution > h3{
+    text-transform: none;
+    font-size: 23px;
+    color: #2c2c2c !important;
+    margin-top: 15px;
+    margin-bottom: 40px;
+
+}
+
+.heading-block.custom-heading-block-for-conatct-distribution > span{
+
+    width: 31%;
+    font-size: 16.5px;
+    font-weight: 400;
+}
+
+.pagination li a {
+    border-color: #2e8ece !important;
+    color: #000;
+}
+.pagination li a:hover {
+    border-color: #2e8ece !important;
+    color: #000;
+    background-color: rgb(36, 152, 227) !important;
+}
+.page-item.active .page-link {
+    border-color: #2e8ece !important;
+    background-color: rgb(36, 152, 227) !important;
+}
+
+#datatable1_previous a{
+    margin-right: 10px;
+    padding-left: 0;
+    border: none;
+}
+
+#datatable1_next a{
+
+    margin-left: 10px;
+    border: none;
+
+}
+
+#datatable1_next a:focus, #datatable1_previous a:focus{
+
+    background-color: rgb(36, 152, 227) !important;
+
+}
+
+.data-table-map-col{
+    text-align: center;
+    display: none;
+}
+
+tbody tr td.data-table-map-col{
+    vertical-align: middle;
+}
+
+
+
+/*End of Styles for newly Edited Contact-dataTables*/
+
+
+
+
+/*Starting of Styles for newly Edited Contact-work-with-us*/
+.dark .heading-block.custom-heading-block-for-conatct-work-with-us  h3{
+    text-transform: none;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+.dark .heading-block.custom-heading-block-for-conatct-work-with-us > span{
+
+    /*width: 31%;*/
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 40px;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+
+}
+
+
+#button-contact-work-with-us{
+    color: #fff;
+    border-color: #fff;
+    font-size: 17px;
+    height: 50px;
+    padding-top: 5px;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#button-contact-work-with-us:before{
+    background-color: #fff;
+
+}
+
+#button-contact-work-with-us:hover{
+    color: #007dbe !important;
+}
+
+/*Ending of Styles for newly Edited Contact-work-with-us*/
+
+
+/****************************************************** Styles for newly Edited Contact-contents COnatact Page ******************************/
+
+
+
+
+/*** Helper classes start here ***/
+
+.justify {
+    text-align: justify;
+}
+.lead-custom {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.chairman-attribute {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.custom-content-list {
+    margin-left: 18px;
+    list-style-type:square;
+}
+
+/*** Helper classes end here ***/
+
+/*Starting of footer-section*/
+#gotoTop:hover {
+    background: #70c0ea;
+}
+.footer-container-for-logo-social-icons{
+    margin-bottom: 40px;
+    padding: 0 80px;
+}
+
+.custom-copyrights-container .custom_col_full_copyright_year,
+.copyrights-menu.copyright-links,
+.copyrights-menu.copyright-links a  {
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #70c0ea;
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+.custom_col_full_copyright_year .new-power-by-for-eskayef,
+.custom_col_full_copyright_year a {
+    font-family: 'Poppins';
+    color: grey;
+    font-size: 14px;
+}
+.custom_col_full_copyright_year span .square {
+    font-family: 'Poppins';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    bottom: 9px;
+    margin-left: 2px;
+    background: rgb(36, 152, 227) !important;
+}
+.dark .widget h4 {
+    color: #409a9a;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+.dark .footer-widgets-wrap a {
+    color: #FFF;
+    font-family: 'Montserrat';
+}
+
+/*Ending of footer-section*/
+
+.skf-simeen-hossain-row, .skf-simeen-hossain-row .simeen-hossain-h1 {
+    color: white;
+}
+
+
+.eskayef-contact-button-col {
+    text-align: center;
+}
+#template-contactform label {
+    color: #000;
+}
+
+#template-contactform .sm-form-control:focus {
+    border-color: #007dbe;
+}
+
+/*** Responsive settings start here ***/
+
+
+
+#page-title.page-title-parallax h1 {
+    overflow: hidden;
+}
+.woocommerce-product-details__short-description h4 {
+    margin-bottom: 13px;
+}
+.woocommerce .woocommerce-breadcrumb a:hover {
+    color: #2e8ece;
+}
+.generic-name-div span, .therapeutic-name-div span {
+    font-size: 17px !important;
+}
+.product-col-download-logo {
+    text-align: center;
+}
+.product-col-download-logo i img {
+    width: 35px !important;
+}
+.product-col-download-text {
+    margin-top: 13px !important;
+    font-size: 17px;
+}
+.generic-name-div, .therapeutic-name-div {
+    margin-bottom: 50px !important;
+}
+#content p {
+    padding-top: 0px !important;
+}
+#yith-searchsubmit, .screen-reader-text {
+    display: none;
+}
+.yith-s {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    font-size: 1.5rem;
+    height: calc(3.7rem + 2px) !important;
+}
+.autocomplete-suggestion:hover {
+    background-color: rgb(36, 152, 227);
+    color: #fff;
+}
+#yith-ajaxsearchform {
+    margin-bottom: 0;
+}
+.play-video i {
+    position: relative;
+    padding-left: 6px;
+    width: 60px;
+    height: 60px;
+    line-height: 61px;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    font-size: 24px;
+    color: #111;
+    transition: all .3s ease;
+    box-shadow: 0 0 1px 15px rgba(255,255,255,.04);
+    -webkit-backface-visibility: hidden;
+}
+.play-video:hover i {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.dark a:hover {
+    color: #EEE;
+}
+
+.skf-intro-page-history-text-row {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.skf-intro-page-history-text-inner-row {
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+}
+.skf-intro-page-office-img {
+    position: relative;
+    bottom: 0;
+    left: -100px;
+}
+.skf-intro-page-history-img-col {
+    position: relative;
+    height: 200px;
+}
+.skf-intro-page-history-text {
+    margin-bottom: 5px;
+}
+.skf-intro-page-history-text-header-bottom {
+    position: relative;
+    color: #007dbe;
+    font-size: 27px;
+    font-weight: 800;
+    width: 600px;
+}
+.skf-intro-page-history-text {
+    position: relative;
+    text-align: justify;
+    font-size: 18px;
+    width: 600px;
+    color: #000;
+}
+
+.transcom-skf-values-header-div {
+    text-align: center;
+}
+.transcom-skf-values-header-div h1 {
+
+}
+
+.transcom-skf-values-svg-img-col02 {
+    margin-bottom: 4rem;
+    margin-left: 3rem;
+}
+.transcom-skf-values-svg-img-holder {
+    text-align: center;
+}
+.transcom-skf-values-svg-img-text-content-div {
+    position: relative;
+    margin-top: 1rem;
+    text-align: center;
+}
+.transcom-skf-values-svg-img-text-content-div .transcom-skf-values-svg-img-header {
+    font-size: 18px !important;
+    color: #007dbe !important;
+    margin-bottom: 5px;
+}
+
+.transcom-skf-values-svg-img-text-content-div .transcom-skf-values-svg-img-desc {
+    font-size: 16px !important;
+}
+
+
+#skf-values-svg-circle-like .skf-values-svg-circle-like-st0.active {
+    animation: rotateCircleSvg 3s forwards;
+
+}
+@-webkit-keyframes rotateCircleSvg {
+    from {
+        transform-origin: center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        transform-origin: center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotateCircleSvg {
+    from {
+        transform-origin: center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        transform-origin: center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes showCirclelikeSvg {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes showCirclelikeSvg {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.skf-values-svg-people-st0.active {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: dash 3s forwards;
+}
+.skf-values-svg-people-st1.active {
+    opacity: 0;
+    animation: showCirclelikeSvg 0.5s forwards 3.1s;
+}
+.skf-values-svg-people-st2.active {
+    opacity: 0;
+    animation: showCirclelikeSvg 0.5s forwards 3.2s;
+}
+.skf-values-svg-people-st3.active {
+    opacity: 0;
+    animation: showCirclelikeSvg 0.5s forwards 3.3s;
+}
+.transcom-skf-values-svg-shield-st1.active {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: dash 3s forwards;
+}
+.transcom-skf-values-svg-star-st1.active {
+    stroke-dasharray: 320;
+    stroke-dashoffset: 320;
+    animation: dash 3s forwards;
+}
+.skf-values-svg-circle-like-st1.active {
+    stroke-dasharray: 550;
+    stroke-dashoffset: 550;
+    animation: dash 3s forwards;
+}
+.transcom-skf-values-svg-arrow-st0.active {
+    stroke-dasharray: 390;
+    stroke-dashoffset: 390;
+    animation: dash 5s forwards;
+}
+@-webkit-keyframes dash {
+    to {
+        stroke: #067DBE;
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes dash {
+    to {
+        stroke: #067DBE;
+        stroke-dashoffset: 0;
+    }
+}
+
+.transcom-skf-values-svg-arrow-st1.active,
+.transcom-skf-values-svg-arrow-st2.active,
+.transcom-skf-values-svg-arrow-st3.active {
+    animation: translateUpArrowSvg 3s forwards;
+}
+
+
+@-webkit-keyframes translateUpArrowSvg {
+    from {
+    //transform-origin: center;
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        -o-transform: translateY(100%);
+        transform: translateY(100%);
+    }
+    to {
+    //transform-origin: center;
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+}
+@keyframes translateUpArrowSvg {
+    from {
+    //transform-origin: center;
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        -o-transform: translateY(100%);
+        transform: translateY(100%);
+    }
+    to {
+    //transform-origin: center;
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+}
+.flexslider.bottommargin.intro-flex-slider .flex-next {
+    margin-right: 0;
+}
+#mhra, #tga, #ema, #vmd {
+    text-align: center;
+}
+.global-audit-img-div {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    box-shadow: 6px 7px 25px rgba(0, 0, 0, 0.15);
+}
+.global-audit-img-div img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.custom-about-skf-p.skf-paragraphh.custom-accreditations-paragraph strong{
+    font-size: 18px !important;
+    color: #000 !important;
+}
+.custom-about-skf-p.skf-paragraphh.custom-accreditations-paragraph {
+    color: #000 !important;
+}
+#header-custom-si-call-text a {
+    width: 190px !important;
+}
+.cutom-tag-a-class-for-news:hover {
+    background-color: #007dbe !important;
+}
+.ts-text {
+    color: #fff !important;
+}
+
+
+iframe {
+    width: 100%;
+    height: 50em;
+}
+
+/*Ending of Events Calendar*/
+
+
+
+
+.custom-service-map-content-wrap{
+    padding-bottom: 0;
+}
+
+
+.custom-factory-location-map{
+    float: right;
+}
+
+.map-location-marker{
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.map-location-marker-dhk{
+    top: 49em;
+    right: 35em;
+}
+
+.map-tooltip-dhk{
+    top: 49em;
+    right: 35em;
+}
+
+.map-location-marker-rnp{
+    top: 17em;
+    right: 52em;
+}
+
+.map-location-marker-shl{
+    top: 35em;
+    right: 13em;
+}
+
+.map-location-marker-bar{
+    top: 69em;
+    right: 34em;
+}
+
+.map-location-marker-mns{
+    top: 32.5em;
+    right: 31em;
+}
+
+.map-location-marker-raj{
+    top: 36.5em;
+    right: 50em;
+}
+
+.map-tooltip-raj{
+    top: 24em;
+    right: 52.2em;
+}
+
+.map-location-marker-khl{
+    top: 63em;
+    right: 46.5em;
+}
+
+.map-location-marker-ctg{
+    top: 66.5em;
+    right: 9.5em;
+}
+
+.container-fluid.custom-map-card-container-fluid{
+    background: #fff;
+}
+
+.modal-content {
+    background-color: rgba(70, 169, 224, 0.7);
+
+}
+
+.modal-header .modal-title{
+    color: rgba(256, 256, 256, 1);
+    font-family: 'Montserrat';
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 0.6em;
+}
+
+.modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    margin-bottom: 2em;
+}
+
+.modal-body p {
+    color:  rgba(256, 256, 256, 1);
+}
+
+
+.modal.fade .modal-dialog {
+    transition: -webkit-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    -webkit-transform: translate(-100%, 0%);
+    transform: translate(-100%, 0%);
+}
+
+.modal.show .modal-dialog {
+    -webkit-transform: translate(-70%, 0%);
+    transform: translate(-70%, 0%);
+}
+
+.modal-backdrop.show {
+    opacity: 0;
+}
+
+.modal-open {
+    overflow-y: visible;
+    margin-right: -17px;
+}
+
+
+.collapse{
+    color: #4a8dba;
+    background: #fff;
+}
+
+.col_three_fourth, .custom-service-map-modal-postcontent {
+    width: 100%;
+}
+
+.custom-card-body-col{
+    margin: 0;
+    float: left;
+    text-align: left;
+    line-height: 2em;
+    letter-spacing: 0.08em;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: .3em;
+    background-color: rgba(19, 120, 176, 1);
+    border-bottom: 1px solid rgba(19, 120, 176, 0.125);
+    color: white;
+}
+
+.mb-0 a {
+    color:White;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.custom-card-map-locator-col {
+    margin: 0;
+    float: right;
+    transform: translateY(7%);
+    -web-kit-transform: translateY(7%);
+    -moz-transform: translateY(7%);
+}
+
+.click-here-map-locator{
+    cursor: pointer;
+}
+.postcontent, .postcontent.bothsidebar, .sidebar {
+    border-bottom: none !important;
+}
+.pulse {
+    /*margin:100px;*/
+    display: block;
+    /*width: 22px;*/
+    /*height: 22px;*/
+    border-radius: 50%;
+    /*background: #0089d1;*/
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(0,137,209, 0.5);
+    animation: pulse 1s infinite;
+}
+.pulse:hover {
+    animation: none;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0,137,209, 0.5);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(0,137,209, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0,137,209, 0);
+    }
+}
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 rgba(0,137,209, 0.5);
+        box-shadow: 0 0 0 0 rgba(0,137,209, 0.5);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(0,137,209, 0);
+        box-shadow: 0 0 0 10px rgba(0,137,209, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(0,137,209, 0);
+        box-shadow: 0 0 0 0 rgba(0,137,209, 0);
+    }
+}
+
+.patient-service-location{
+    position: absolute;
+}
+.container-fluid.custom-mnc-ties-container-fluid {
+    padding: 0;
+}
+.global-audit-img-div.custom-mnc-ties-img-div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    text-align: center;
+}
+.global-audit-img-div.custom-mnc-ties-img-div img {
+    width: 250px;
+    height: 250px;
+}
+.custom-about-skf-row.custom-global-audit-row.custom-mnc-ties-row.glaxo-smith-kline-row,
+.custom-about-skf-row.custom-global-audit-row.custom-mnc-ties-row.novartis-row {
+    padding: 70px 250px;
+}
+
+.novo-nordisk-row {
+    position: relative;
+    top: -30px;
+}
+.servier-row {
+    position: relative;
+    top: -50px;
+    padding-bottom: 70px !important;
+}
+
+@media (min-width: 1921px) {
+
+
+    /***********************************************************INTRODUCTION PAGE STARTS FROM HERE*************************************************************************************/
+
+    /*intro-page welcome-slider starts here*/
+    .skf-intro-page-office-img {
+        position: relative;
+        top: 0;
+        left: 0px;
+    }
+    #primary-menu ul li.mega-menu .mega-menu-content.style-2 {
+        padding: 0 10px;
+        left: 38%;
+    }
+
+    .floating-header #primary-menu ul li.mega-menu .mega-menu-content {
+        margin: 0;
+        width: 1000px;
+    }
+
+    .intro-page-carousel-caption {
+        top: 62%;
+    }
+    /*intro-page welcome-slider ends here*/
+    .skf-intro-page-timeline-office-section-div {
+        width: 1920px;
+        top: 32%;
+        left: 50%;
+        transform: translate(-32%, 0%);
+        -webkit-transform: translate(-32%, 0%);
+        -moz-transform: translate(-32%, 0%);
+    }
+    .skf-latifur-rahman-section-div {
+        width: 1920px;
+        background-color: transparent;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .skf-latifur-rahman-logo-02 {
+        margin-left: 8%;
+    }
+    .skf-simeen-hossain-section-div {
+        width: 1920px;
+        overflow: visible;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .skf-simeen-hossain-img-div {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 50%;
+        transform: translate(4%, 30%);
+        -webkit-transform: translate(0%, 30%);
+        -moz-transform: translate(4%, 30%);
+    }
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph {
+        color: #fff;
+        text-align: left;
+        padding: 0;
+    }
+
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph.designation-name {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: -10px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph.designation {
+        font-size: 18px;
+        margin-bottom: -15px;
+    }
+
+    /********************************************************** GLOBAL AUDIT PAGE STARTS HERE **********************************************************/
+    .container.custom-about-skf-container.custom-global-audit-container {
+        max-width: 100% !important;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .custom-about-skf-row.custom-global-audit-row {
+        padding: 60px 280px;
+        margin-left: 0 !important;
+    }
+
+
+    .custom-about-skf-p.skf-paragraph.custom-global-audit-paragraph {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        text-align: left;
+    }
+
+    /********************************************************** GLOBAL AUDIT PAGE ENDS HERE**********************************************************/
+
+
+
+    /********************************************************** ACCREDITATIONS PAGE STARTS HERE**********************************************************/
+
+    .custom-about-skf-p.skf-paragraphh.custom-accreditations-paragraph {
+        margin-bottom: -10px;
+    }
+
+    /********************************************************** ACCREDITATIONS PAGE ENDS HERE**********************************************************/
+
+    #copyrights {
+        padding: 13px 0;
+        padding-bottom: 10px;
+    }
+    .footer-img-div{
+        float: left;
+        margin-top: 25px;
+    }
+    .social-icons-div {
+        float: right;
+    }
+    .transcom-skf-values-container {
+        max-width: 1500px;
+        width: 1500px;
+    }
+    .transcom-skf-values-svg-img-holder {
+        width: 200px;
+        height: 230px;
+    }
+    .cd-horizontal-timeline .events a::after {
+        bottom: -12px !important;
+        height: 25px !important;
+        width: 25px !important;
+    }
+    .custom-about-skf-row.custom-global-audit-row {
+        position: relative;
+        width: 1155px;
+        left: 50%;
+        -webkit-transform:  translateX(-50%);
+        -moz-transform:  translateX(-50%);
+        -ms-transform:  translateX(-50%);
+        -o-transform:  translateX(-50%);
+        transform:  translateX(-50%);
+    }
+    .row.custom-about-skf-row.custom-global-audit-row.custom-mnc-ties-row {
+        width: 100%;
+    }
+    .patient-service-location{
+        top: 45%;
+        left: 5%;
+        width: 30%;
+    }
+    /***********************************************************INTRODUCTION PAGE ENDS FROM HERE*************************************************************************************/
+}
+
+@media (min-width: 1800px) {
+    /*Starting Common Styles for Header and Paragraph*/
+
+    #primary-menu ul li.mega-menu .mega-menu-content.style-2 {
+        padding: 0 10px;
+        left: 38%;
+    }
+
+    .floating-header #primary-menu ul li.mega-menu .mega-menu-content {
+        margin: 0;
+        width: 1000px;
+    }
+
+    .skf-welcome-slider-header{
+
+    }
+    .skf-welcome-slider-paragraph{
+
+    }
+    .heading-block .skf-header {
+        font-size: 40px;
+    }
+    .heading-block ~ .skf-paragraph:not(.lead) {
+        font-size: 21px;
+    }
+    .skf-header {
+        font-size: 40px;
+    }
+
+    .skf-paragraph {
+        font-size: 21px;
+    }
+    .custom-skf-facility-btn {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .custom-skf-globe-btn {
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .custom-skf-pharma-video-btn {
+        font-size: 18px;
+        font-weight: 300;
+    }
+    /*Ending Common Styles for Header and Paragraph*/
+
+
+    .custom-about-skf-container{
+        /*max-width: 1550px !important;*/
+    }
+    .custom-about-skf-row{
+        padding: 38px;
+    }
+    .custom-about-skf-p{
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        padding: 12px;
+    }
+
+    /*Starting of feature-product-section*/
+    .custom-skf-feature-product-section-div{
+        padding-bottom: 80px;
+    }
+    .custom-skf-feature-product-container{
+        max-width: 1450px;
+    }
+    .form-control {
+        font-size: 1.5rem;
+        height: calc(3.7rem + 2px) !important;
+    }
+    /*Ending of feature-product-section*/
+
+
+    /*Starting of footer-section*/
+    .footer-container {
+        max-width: 1550px;
+    }
+    #footer .footer-widgets-wrap {
+        left: 4.5%;
+    }
+    #footer.dark, .dark #footer {
+        border-top-color: transparent;
+    }
+    .widget_links li {
+        padding: 10px 0;
+    }
+    #footer .footer-widgets-wrap-for-infomation{
+        padding-bottom: 0px;
+    }
+    #footer .footer-widgets-wrap-for-social-icons{
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+    .footer-col-one-third{
+        text-align: center;
+        margin: auto;
+    }
+    #post-list-footer{
+        margin-top: 10%;
+    }
+    #post-list-footer.post-list-footer-left{
+        float: right;
+    }
+    .dark .social-icon-with-right-margin {
+        margin-right: 10px;
+    }
+    #copyrights {
+        padding: 13px 0;
+        padding-bottom: 10px;
+    }
+    .custom-copyrights-container {
+        max-width: 1412px;
+    }
+    /*Ending of footer-section*/
+
+
+
+
+    /***********************************************************INTRODUCTION PAGE STARTS FROM HERE*************************************************************************************/
+    /*intro-page welcome-slider starts here*/
+    .intro-page-carousel-caption {
+        top: 62%;
+    }
+    /*intro-page welcome-slider ends here*/
+
+    /*intro-page timeline-img section starts here*/
+
+    .skf-intro-page-small-timeline-img-div {
+        position: absolute;
+        bottom: 13%;
+        left: 50%;
+    }
+
+    /*intro-page timeline section ends here*/
+
+
+    /*intro-page Latifur-Rahman section starts here*/
+    .skf-latifur-rahman-container-fluid {
+        width: 50%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: 18%;
+    }
+    .skf-latifur-rahman-row .col-md-6 h5 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .skf-latifur-rahman-row .col-md-12 h1, .skf-latifur-rahman-accolades-row .col-sm-12 h1 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .skf-latifur-rahman-accolades-row {
+        width: 70%;
+        margin-bottom: 50px;
+    }
+    .skf-latifur-rahman-accolades-row .col-sm-6 {
+        padding: 0 15px 15px 15px;
+    }
+    .skf-latifur-rahman-img-div {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(0%, 0%);
+        -webkit-transform: translate(0%, 0%);
+        -moz-transform: translate(0%, 0%);
+    }
+    .skf-latifur-rahman-img {
+        max-width: 200%;
+        width: 100%;
+        margin-left: 15%
+    }
+    .skf-latifur-rahman-logo-02 {
+        margin-left: 8%;
+    }
+    /*intro-page Latifur-Rahman section ends here*/
+
+    /*intro-page Simeen Hossain section starts here*/
+    .skf-simeen-hossain-section {
+        padding: 329px 0;
+    }
+    .skf-simeen-hossain-section-div {
+        overflow: visible;
+    }
+    .skf-simeen-hossain-container-fluid {
+        width: 47%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: 18%;
+    }
+    .skf-simeen-hossain-row {
+        margin-top: -6%;
+    }
+    .skf-simeen-hossain-img-div {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(0%, 0%);
+        -webkit-transform: translate(0%, 0%);
+        -moz-transform: translate(0%, 0%);
+    }
+    .skf-simeen-hossain-img {
+        max-width: 100%;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-h1 {
+        margin-bottom: 35px;
+        font-size: 30px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p1 {
+        margin-bottom: 0px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p2 {
+        margin-bottom: 10px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph {
+        color: #fff;
+        text-align: left;
+        padding: 0;
+    }
+
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph.designation-name {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: -10px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph.designation {
+        font-size: 18px;
+        margin-bottom: -15px;
+    }
+    /*intro-page Simeen Hossain section ends here*/
+
+    /*intro-page Simeen Hossain section starts here*/
+    .skf-intro-page-core-values-row{
+
+    }
+    .skf-intro-page-core-values-row .col-md-2 {
+
+    }
+    /*intro-page Simeen Hossain section ends here*/
+
+
+    /********************************************************** GLOBAL AUDIT PAGE STARTS HERE **********************************************************/
+
+    .container.custom-about-skf-container.custom-global-audit-container {
+        /*max-width: 100% !important;*/
+        /*width: 100%;*/
+        /*margin: 0 !important;*/
+        /*padding: 0 !important;*/
+    }
+
+    .custom-about-skf-row.custom-global-audit-row {
+        padding: 40px 250px;
+        margin-left: 0 !important;
+    }
+
+    .custom-about-skf-p.skf-paragraph.custom-global-audit-paragraph {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        text-align: left;
+    }
+
+    /********************************************************** GLOBAL AUDIT PAGE ENDS HERE**********************************************************/
+
+
+    /********************************************************** ACCREDITATIONS PAGE STARTS HERE**********************************************************/
+
+    .custom-about-skf-p.skf-paragraphh.custom-accreditations-paragraph {
+        margin-bottom: -10px;
+    }
+
+    /********************************************************** ACCREDITATIONS PAGE ENDS HERE**********************************************************/
+
+    .footer-img-div{
+        float: left;
+        margin-top: 25px;
+    }
+    .social-icons-div {
+        float: right;
+    }
+    .patient-service-location{
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        width: 40%;
+    }
+}
+@media (min-width: 1800px) and (max-width: 1920px){
+    .transcom-skf-values-container {
+        max-width: 1500px;
+        width: 1500px;
+    }
+    .transcom-skf-values-svg-img-holder {
+        /*width: 200px;*/
+        height: 180px;
+    }
+    .cd-horizontal-timeline .events a::after {
+        bottom: -12px !important;
+        height: 25px !important;
+        width: 25px !important;
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1799px){
+
+    /*Starting Common Styles for Header and Paragraph*/
+
+    #primary-menu ul li.mega-menu .mega-menu-content.style-2 {
+        padding: 0 10px;
+        left: 38%;
+    }
+
+    .floating-header #primary-menu ul li.mega-menu .mega-menu-content {
+        margin: 0;
+        width: 780px;
+    }
+
+    .skf-welcome-slider-header{
+
+    }
+    .skf-welcome-slider-paragraph{
+
+    }
+    .heading-block .skf-header {
+        font-family: 'Montserrat';
+        font-size: 40px;
+    }
+    .heading-block ~ .skf-paragraph:not(.lead) {
+        font-size: 21px;
+    }
+    .skf-header {
+        font-family: 'Montserrat';
+        font-size: 40px;
+    }
+
+    .skf-paragraph {
+        font-size: 21px;
+    }
+    .carousel-caption-h1 {
+        font-size: 54px;
+
+    }
+    .carousel-caption-h1 .custom-carousel-caption-h1-span {
+        font-size: 54px;
+    }
+    .carousel-control-next.custom-carousel-control-next, .carousel-control-prev.custom-carousel-control-prev {
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+    }
+    .carousel-caption-holder {
+        top: 52%;
+        left: 50%;
+        transform: translate(-50%, -90%);
+        -webkit-transform: translate(-50%, -52%);
+        -moz-transform: translate(-50%, -90%);
+    }
+    /*Ending Common Styles for Header and Paragraph*/
+
+
+    /*Staring of about-skf section*/
+    .skf-latifur-rahman-img {
+        max-width: 200%;
+        width: 75%;
+        margin-left: 28%;
+    }
+    .heading-block ~ .custom-about-skf-p.skf-paragraph:not(.lead) {
+        font-family:  'Open Sans', sans-serif;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #Layer_1 {
+        width: 165%;
+        margin-bottom: -70%;
+        margin-left: -30%;
+    }
+    /*Ending of about-skf-section*/
+
+
+    /*Starting of skf-globe Section*/
+    #globe, #clouds1, #clouds2 {
+        width: 389px;
+        height: 398px;
+    }
+    /*Ending of skf-globe Section*/
+
+
+    /*Starting of footer-section*/
+    .footer-container {
+        /*max-width: 1550px;*/
+    }
+    #footer .footer-widgets-wrap {
+        left: 4.5%;
+    }
+    #footer.dark, .dark #footer {
+        border-top-color: transparent;
+    }
+    .widget_links li {
+        padding: 10px 0;
+    }
+    #footer .footer-widgets-wrap-for-infomation{
+        padding-bottom: 0px;
+    }
+    #footer .footer-widgets-wrap-for-social-icons{
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+    .footer-col-one-third{
+        text-align: center;
+        margin: auto;
+    }
+    #post-list-footer{
+        margin-top: 10%;
+    }
+    #post-list-footer.post-list-footer-left{
+        float: right;
+    }
+    .dark .social-icon-with-right-margin {
+        margin-right: 10px;
+    }
+    #copyrights {
+        padding: 13px 0;
+        padding-bottom: 10px;
+    }
+
+    .custom-copyrights-container {
+        max-width: 1070px ;
+    }
+    /*Ending of footer-section*/
+
+
+
+    /***********************************************************INTRODUCTION PAGE STARTS FROM HERE*************************************************************************************/
+    /*intro-page welcome-slider starts here*/
+    .intro-page-carousel-caption {
+        top: 62%;
+    }
+    /*intro-page welcome-slider ends here*/
+
+    /*intro-page timeline-img section starts here*/
+
+    .skf-intro-page-small-timeline-img-div {
+        position: absolute;
+        bottom: 15%;
+        left: 45%;
+        width: 45%;
+    }
+    /*intro-page timeline section ends here*/
+
+    /*intro-page Latifur-Rahman section starts here*/
+    .skf-latifur-rahman-container-fluid {
+        width: 50%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: 8%;
+    }
+    .skf-latifur-rahman-row .col-md-6 h5 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .skf-latifur-rahman-row .col-md-12 h1, .skf-latifur-rahman-accolades-row .col-sm-12 h1 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .skf-latifur-rahman-accolades-row {
+        width: 70%;
+        margin-bottom: 50px;
+    }
+    .skf-latifur-rahman-accolades-row .col-sm-6 {
+        padding: 0 15px 15px 15px;
+    }
+    .skf-latifur-rahman-img-div {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(0%, 0%);
+        -webkit-transform: translate(0%, 0%);
+        -moz-transform: translate(0%, 0%);
+    }
+    .skf-latifur-rahman-logo-02 {
+        margin-left: 8%;
+    }
+    /*intro-page Latifur-Rahman section ends here*/
+
+    /*intro-page Simeen Hossain section starts here*/
+    .skf-simeen-hossain-section {
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        width: 100%;
+        height: 0;
+        padding-top: 53.33%;
+    }
+    .skf-simeen-hossain-section-div {
+        overflow: visible;
+    }
+
+    .skf-simeen-hossain-row {
+        margin-top: -100%;
+    }
+    .skf-simeen-hossain-img-div {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(0%, 0%);
+        -webkit-transform: translate(0%, 0%);
+        -moz-transform: translate(0%, 0%);
+        width: 50%;
+    }
+    .skf-simeen-hossain-img {
+        max-width: 100%;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p1 {
+        margin-bottom: 0px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p2 {
+        margin-bottom: 10px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p3 {
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+    .skf-simeen-hossain-container-fluid {
+        width: 50%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: 8%;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-h1 {
+        margin-bottom: 35px;
+        font-size: 30px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph.designation-name {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: -10px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph.designation {
+        font-size: 18px;
+        margin-bottom: -15px;
+    }
+    /*intro-page Simeen Hossain section ends here*/
+
+
+
+    /********************************************************** GLOBAL AUDIT PAGE STARTS HERE **********************************************************/
+
+    .container.custom-about-skf-container.custom-global-audit-container {
+        max-width: 100% !important;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .custom-about-skf-row.custom-global-audit-row {
+        position: relative;
+        width: 670px;
+        /* padding: 38px 100px; */
+        margin-left: 0 !important;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+    }
+
+    .row.custom-about-skf-row.custom-global-audit-row.custom-mnc-ties-row {
+        position: relative;
+        width: 100% !important;
+         padding: 38px 100px !important;
+        margin-left: 0 !important;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+    }
+
+    .custom-about-skf-p.skf-paragraph.custom-global-audit-paragraph {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        text-align: left;
+    }
+
+    /********************************************************** GLOBAL AUDIT PAGE ENDS HERE**********************************************************/
+
+    /********************************************************** ACCREDITATIONS PAGE STARTS HERE**********************************************************/
+
+    .custom-about-skf-p.skf-paragraphh.custom-accreditations-paragraph {
+        margin-bottom: 0px;
+    }
+
+    /********************************************************** ACCREDITATIONS PAGE ENDS HERE**********************************************************/
+
+    .footer-img-div{
+        float: left;
+        margin-top: 25px;
+    }
+    .social-icons-div {
+        float: right;
+    }
+
+    .yith-s {
+        font-size: 1rem;
+        height: calc(2.25rem + 2px) !important;
+    }
+    .skf-intro-page-history-text-inner-row {
+        bottom: 0px;
+        left: -80px;
+    }
+    .skf-intro-page-history-text {
+        font-size: 16px;
+        width: 500px;
+    }
+    .skf-intro-page-history-text-header-bottom {
+        font-size: 21px;
+        width: 500px;
+    }
+    .transcom-skf-values-svg-img-holder {
+        width: 150px;
+        height: 160px;
+    }
+    .cd-horizontal-timeline .events a::after {
+        bottom: -12px !important;
+        height: 25px !important;
+        width: 25px !important;
+    }
+    .global-audit-img-div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .patient-service-location{
+        top: 45%;
+        left: 5%;
+        width: 35%;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /*Starting Common Styles for Header and Paragraph*/
+    #primary-menu ul li.mega-menu .mega-menu-content.style-2 {
+        padding: 0 10px;
+        left: 38%;
+    }
+
+    .floating-header #primary-menu ul li.mega-menu .mega-menu-content {
+        margin: 0;
+        width: 600px;
+    }
+    #primary-menu ul li > a {
+        font-size: 13px;
+    }
+    #logo img {
+        padding: 20px;
+    }
+
+    .carousel-control-next.custom-carousel-control-next, .carousel-control-prev.custom-carousel-control-prev {
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+    }
+    .carousel-caption-holder {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+        -webkit-transform: translate(-50%, -45%);
+        -moz-transform: translate(-50%, -45%);
+    }
+    .carousel-caption-h1 {
+        margin-bottom: 0px;
+    }
+    .carousel-caption-h1 {
+        font-size: 40px;
+    }
+    .carousel-caption-h1 .custom-carousel-caption-h1-span {
+        font-size: 40px;
+    }
+    .carousel-caption-p {
+        font-size: 25px;
+    }
+    .skf-welcome-slider-header{
+
+    }
+    .skf-welcome-slider-paragraph{
+
+    }
+    .heading-block .skf-header {
+        font-size: 40px;
+    }
+    .heading-block ~ .skf-paragraph:not(.lead) {
+        font-size: 22px;
+    }
+    .skf-header {
+        font-size: 40px;
+    }
+
+    .skf-paragraph {
+        font-size: 21px;
+    }
+    /*Ending Common Styles for Header and Paragraph*/
+
+    /*Staring of about-skf section*/
+    .skf-latifur-rahman-img {
+        max-width: 200%;
+        width: 65%;
+        margin-left: 20%;
+    }
+    .heading-block ~ .custom-about-skf-p.skf-paragraph:not(.lead) {
+        font-family:  'Open Sans', sans-serif;
+        text-align: center;
+        margin-bottom: 50px;
+        padding: 0 80px 0 80px;
+    }
+    .grid figure p {
+        font-family:  'Open Sans', sans-serif;
+        font-size: 70.5%;
+    }
+    #Layer_1 {
+        width: 165%;
+        margin-bottom: -70%;
+        margin-left: -30%;
+    }
+    /*Ending of about-skf-section*/
+
+
+    /*Starting of skf-facility Section*/
+    .custom-skf-facility-div {
+        top: 40%;
+        left: 4%;
+        text-align: justify;
+        transform: translate(0%,-40%);
+        -webkit-transform: translate(0%,-40%);
+        -moz-transform: translate(0%,-40%);
+    }
+    /*Ending of skf-facility Section*/
+
+
+    /*Starting of skf-globe Section*/
+    #globe, #clouds1, #clouds2 {
+        width: 389px;
+        height: 398px;
+    }
+    .custom-skf-globe-div {
+        width: 80%;
+    }
+    /*Ending of skf-globe Section*/
+
+    /* three col sec adjust paragraph font size*/
+    .three-col-sec p {
+        font-size: 12px;
+    }
+    .grid {
+        position: relative;
+        margin: 0 auto;
+        padding: 1em 0 4em;
+        max-width: 400px;
+        list-style: none;
+        text-align: center;
+        padding-left: 20px;
+    }
+    .grid figure {
+        max-width: 480px;
+        max-height: 360px;
+        width: 80%;
+    }
+    /* Fix margin on history section */
+    .history-custom-margin {
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 16px;
+    }
+
+    /*Starting of footer-section*/
+    .footer-container {
+        /*max-width: 1550px;*/
+    }
+    #footer .footer-widgets-wrap {
+        left: 3%;
+    }
+    #footer.dark, .dark #footer {
+        border-top-color: transparent;
+    }
+    .widget_links li {
+        padding: 10px 0;
+    }
+    #footer .footer-widgets-wrap-for-infomation{
+        padding-bottom: 0px;
+    }
+    #footer .footer-widgets-wrap-for-social-icons{
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+    .footer-col-one-third{
+        text-align: center;
+        margin: auto;
+    }
+    #post-list-footer{
+        margin-top: 10%;
+    }
+    #post-list-footer.post-list-footer-left{
+        float: right;
+    }
+    .dark .social-icon-with-right-margin {
+        margin-right: 10px;
+    }
+    #copyrights {
+        padding: 13px 0;
+        padding-bottom: 10px;
+    }
+    .custom-copyrights-container {
+        max-width: 915px;
+    }
+    /*Ending of footer-section*/
+
+
+
+    /***********************************************************INTRODUCTION PAGE STARTS FROM HERE*************************************************************************************/
+    /*intro-page welcome-slider starts here*/
+    .intro-page-carousel-caption {
+        top: 62%;
+    }
+    #top-bar .col_half {
+        width: auto;
+        left: 5px;
+    }
+    /*intro-page welcome-slider ends here*/
+
+    /*intro-page timeline-img section starts here*/
+
+    .skf-intro-page-small-timeline-img-div {
+        position: absolute;
+        bottom: 12%;
+        left: 42%;
+        width: 50%;
+    }
+    /*intro-page timeline section ends here*/
+
+    /*intro-page Latifur-Rahman section starts here*/
+    .skf-latifur-rahman-container-fluid {
+        width: 50%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: 8%;
+    }
+    .skf-latifur-rahman-row .col-md-6 h5 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .skf-latifur-rahman-row .col-md-12 h1, .skf-latifur-rahman-accolades-row .col-sm-12 h1 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .skf-latifur-rahman-accolades-row {
+        width: 70%;
+        margin-bottom: 50px;
+    }
+    .skf-latifur-rahman-accolades-row .col-sm-6 {
+        padding: 0 15px 15px 15px;
+    }
+    .skf-latifur-rahman-img-div {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(20%, 0%);
+        -webkit-transform: translate(20%, 0%);
+        -moz-transform: translate(20%, 0%);
+    }
+    .skf-latifur-rahman-logo-02 {
+        margin-left: 8%;
+    }
+    /*intro-page Latifur-Rahman section ends here*/
+    .skf-simeen-hossain-row {
+        text-align: center;
+        padding: 0 10%;
+        margin-top: 4%;
+        margin-bottom: 10px;
+    }
+
+    /*intro-page Simeen Hossain section starts here*/
+    /*.skf-simeen-hossain-section {*/
+    /*background-size: contain !important;*/
+    /*background-repeat: no-repeat !important;*/
+    /*width: 100%;*/
+    /*height: 0;*/
+    /*padding-top: 53.33%;*/
+    /*}*/
+    /*.skf-simeen-hossain-section-div {*/
+    /*overflow: visible;*/
+    /*}*/
+    /*.skf-simeen-hossain-container-fluid {*/
+    /*width: 51%;*/
+    /*padding-right: 15px;*/
+    /*padding-left: 15px;*/
+    /*margin-right: auto;*/
+    /*margin-left: 8%;*/
+    /*}*/
+    /*.skf-simeen-hossain-row {*/
+    /*margin-top: -100%;*/
+    /*}*/
+    .skf-simeen-hossain-img-div {
+        height: 100%;
+        transform: translate(10%, 0%);
+        -webkit-transform: translate(10%, 0%);
+        -moz-transform: translate(10%, 0%);
+    }
+
+    .skf-simeen-hossain-row .simeen-hossain-h1 {
+        margin-bottom: 35px;
+        font-size: 30px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph.designation-name {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: -10px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph.designation {
+        font-size: 16px;
+        margin-bottom: -15px;
+    }
+
+    /*intro-page Simeen Hossain section ends here*/
+
+
+    /********************************************************** GLOBAL AUDIT PAGE STARTS HERE **********************************************************/
+    .container.custom-about-skf-container.custom-global-audit-container {
+        max-width: 100% !important;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .custom-about-skf-row.custom-global-audit-row {
+        /*padding: 38px 38px;*/
+        margin-left: 0 !important;
+    }
+
+    .custom-about-skf-p.skf-paragraph.custom-global-audit-paragraph {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        text-align: left;
+    }
+
+    /********************************************************** GLOBAL AUDIT PAGE ENDS HERE**********************************************************/
+
+    /********************************************************** ACCREDITATIONS PAGE STARTS HERE**********************************************************/
+
+    .custom-about-skf-p.skf-paragraphh.custom-accreditations-paragraph {
+        margin-bottom: 0px;
+    }
+
+    /********************************************************** ACCREDITATIONS PAGE ENDS HERE**********************************************************/
+
+    .footer-img-div{
+        float: left;
+        margin-top: 25px;
+    }
+    .social-icons-div {
+        float: right;
+    }
+    .product-col-download-text {
+        font-size: 16px;
+    }
+
+    .yith-s {
+        font-size: 1rem;
+        height: calc(2.25rem + 2px) !important;
+    }
+    .section.skf-intro-page-timeline-office-section-div {
+        height: 650px;
+    }
+    .skf-intro-page-office-img {
+        position: absolute;
+        bottom: 0px !important;
+        left: -100px;
+    }
+    .skf-intro-page-history-text-inner-row {
+        position: absolute;
+        bottom: 0px;
+        left: -120px;
+    }
+    .skf-intro-page-history-text {
+        font-size: 16px;
+        width: 450px;
+    }
+    .skf-intro-page-history-text-header-bottom {
+        font-size: 21px;
+        width: 450px;
+    }
+    .transcom-skf-values-svg-img-col02 {
+        margin-left: 0rem;
+    }
+    .transcom-skf-values-content-wrap {
+        padding-bottom: 0;
+    }
+    .cd-horizontal-timeline .events a::after {
+        bottom: -12px !important;
+        height: 25px !important;
+        width: 25px !important;
+    }
+    .custom-about-skf-row.custom-global-audit-row {
+        position: relative;
+        width: 670px;
+        /* padding: 38px 100px; */
+        margin-left: 0 !important;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+    }
+    .row.custom-about-skf-row.custom-global-audit-row.custom-mnc-ties-row {
+        position: relative;
+         width: 100%;
+        padding: 38px 100px !important;
+        margin-left: 0 !important;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+    }
+    .custom-about-skf-p.skf-paragraph.custom-global-audit-paragraph {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        text-align: left;
+    }
+    .global-audit-img-div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .global-audit-img-div.custom-mnc-ties-img-div {
+        padding: 0 !important;
+    }
+    .global-audit-img-div.custom-mnc-ties-img-div img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .patient-service-location{
+        top: 33%;
+        left: 5%;
+        width: 90%;
+        opacity: .5;
+    }
+    .custom-about-skf-row.custom-global-audit-row.custom-mnc-ties-row.glaxo-smith-kline-row {
+        position: relative;
+        top: -50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Remove spacing from top*/
+    #header.transparent-header.floating-header + #page-title.page-title-parallax {
+        top: 0;
+        margin-bottom: 0;
+    }
+    /* Change font color*/
+
+    #primary-menu ul li > a, #primary-menu ul li > a{
+        color: #666;
+    }
+    body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover a {
+        color: #007dbe !important;
+    }
+    .page-title-parallax {
+        margin-top: 0px;
+    }
+    /* woocommerce product summary */
+    .woocommerce div.product div.summary {
+        padding-left: 0px;
+    }
+    /* Fix margin on history section */
+    .history-custom-margin {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 16px;
+    }
+
+    /* Add white background with opacity 0.8 to highlight text */
+    #md-ceo-corner .ceo-section-text {
+        background: rgba(255,255,255,0.8);
+        padding: 20px;
+    }
+
+    /* remove left margin on map div on asia section */
+    .custom-heading {
+        margin-left: 0px;
+    }
+
+    .country-group {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    figure.effect-chico figcaption {
+        padding: 0em;
+    }
+
+    .grid figure p {
+        font-size: 70%;
+    }
+
+
+
+    /*Starting Common Styles for Header and Paragraph*/
+    .custom-top-bar-container {
+        max-width: 100%;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0;
+        background: #0880be;
+    }
+    .icon-reorder{
+        font-size: 30px;
+    }
+    label {
+        font-size: 11px;
+    }
+    small {
+        font-size: 12px;
+    }
+    .carousel-control-next.custom-carousel-control-next, .carousel-control-prev.custom-carousel-control-prev {
+        width: 30px;
+        height: 0px;
+    }
+    .carousel-control-next.custom-carousel-control-next, .carousel-control-prev.custom-carousel-control-prev {
+        top: 45%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+    }
+    .carousel-caption-holder {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -61%);
+        -webkit-transform: translate(-50%, -61%);
+        -moz-transform: translate(-50%, -61%);
+    }
+    .carousel-caption-h1 {
+        margin-bottom: 0px;
+    }
+    .carousel-caption-h1 {
+        font-size: 30px;
+    }
+    .carousel-caption-h1 .custom-carousel-caption-h1-span {
+        font-size: 30px;
+    }
+    .carousel-caption-p {
+        font-size: 18px;
+    }
+    .skf-welcome-slider-header{
+
+    }
+    .skf-welcome-slider-paragraph{
+
+    }
+    .heading-block .skf-header {
+        font-size: 36px;
+    }
+    .heading-block ~ .skf-paragraph:not(.lead) {
+        font-size: 22px;
+    }
+    .skf-header {
+        font-size: 36px;
+    }
+
+    .skf-paragraph {
+        font-size: 22px;
+        line-height: 32px !important;
+    }
+    /*Ending Common Styles for Header and Paragraph*/
+
+
+
+    /*Staring of about-skf section*/
+    .skf-latifur-rahman-img {
+        max-width: 200%;
+        width: 100%;
+        margin-left: 6%;
+    }
+    .heading-block ~ .custom-about-skf-p.skf-paragraph:not(.lead) {
+        text-align: justify;
+        margin-bottom: 50px;
+        padding: 0 60px 0 60px;
+    }
+    .grid figure p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 70.5%;
+    }
+    /*Ending of about-skf-section*/
+
+
+    /*Starting of skf-facility Section*/
+    .custom-skf-facility-div {
+        top: 40%;
+        left: 5%;
+        text-align: justify;
+        transform: translate(0%,-40%);
+        -webkit-transform: translate(0%,-40%);
+        -moz-transform: translate(0%,-40%);
+    }
+    #Layer_1 {
+        width: 155%;
+        margin-bottom: -70%;
+        margin-left: -25%;
+    }
+    /*Ending of skf-facility Section*/
+
+
+    /*Starting of skf-globe Section*/
+    #globe, #clouds1, #clouds2 {
+        width: 389px;
+        height: 398px;
+    }
+    .custom-skf-globe-div {
+        width: 100%;
+        padding: 0 130px !important;
+    }
+    /*Ending of skf-globe Section*/
+
+    /* three col sec adjust paragraph font size*/
+    .three-col-sec p {
+        font-size: 12px;
+    }
+    .grid {
+        position: relative;
+        margin: 0 auto;
+        padding: 1em 0 4em;
+        max-width: 400px;
+        list-style: none;
+        text-align: center;
+        padding-left: 20px;
+    }
+    .grid figure {
+        max-width: 480px;
+        max-height: 360px;
+        width: 80%;
+    }
+    /*Ending of three col sec*/
+
+    /*Starting of footer-section*/
+    .footer-container {
+        /*max-width: 1550px;*/
+    }
+    #footer .footer-widgets-wrap {
+        /*left: 3%;*/
+    }
+    #footer.dark, .dark #footer {
+        border-top-color: transparent;
+    }
+    .widget_links li {
+        padding: 10px 0;
+    }
+    #footer .footer-widgets-wrap-for-infomation{
+        padding-bottom: 0px;
+    }
+    #footer .footer-widgets-wrap-for-social-icons{
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+    .footer-col-one-third{
+        text-align: center;
+        margin: auto;
+    }
+    #post-list-footer{
+        margin-top: 10%;
+    }
+    #post-list-footer.post-list-footer-left{
+        float: right;
+    }
+    .dark .social-icon-with-right-margin {
+        margin-right: 10px;
+    }
+    #copyrights {
+        padding: 13px 0;
+        padding-bottom: 10px;
+    }
+    .custom-copyrights-container {
+        max-width: 750px;
+    }
+    .footer-col-one-third-img{
+        margin-left: 25px;
+        margin-right: 25px
+    }
+    /*Ending of footer-section*/
+
+
+
+    /***********************************************************INTRODUCTION PAGE STARTS FROM HERE*************************************************************************************/
+
+
+    /*intro-page welcome-slider section starts here*/
+    #header.transparent-header + #page-title.page-title-parallax .container {
+        padding-top: 0;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+    }
+    /*intro-page welcome-slider section ends here*/
+
+
+    /*intro-page timeline-img section starts here*/
+    .skf-intro-page-timeline-office-section-div {
+        margin-top: 0%;
+    }
+    .skf-intro-page-small-timeline-img-div {
+        padding: 5%;
+    }
+    .skf-intro-page-small-timeline-img-mobile, .skf-intro-page-office-img-mobile {
+        display: inherit;
+    }
+    .skf-intro-page-small-timeline-img, .skf-intro-page-office-img {
+        display: none;
+    }
+    /*intro-page timeline section ends here*/
+
+    /*intro-page Latifur-Rahman section starts here*/
+    .skf-latifur-rahman-container-fluid {
+        width: 70%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        /* margin-left: 8%; */
+    }
+    .skf-latifur-rahman-row .col-md-6 h5 {
+        font-size: 23px;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    .skf-latifur-rahman-row .col-md-12 h1, .skf-latifur-rahman-accolades-row .col-sm-12 h1 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .skf-latifur-rahman-accolades-row {
+        width: 70%;
+        margin-bottom: 50px;
+    }
+    .skf-latifur-rahman-accolades-row .col-sm-6 {
+        padding: 0 15px 15px 15px;
+    }
+    .skf-latifur-rahman-img-div {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        /* transform: translate(38%, 0%); */
+        /* -webkit-transform: translate(38%, 0%); */
+        /*-moz-transform: translate(38%, 0%);*/
+    }
+    .skf-latifur-rahman-logo-02 {
+        margin-left: 8%;
+    }
+    /*intro-page Latifur-Rahman section ends here*/
+
+    /*intro-page Simeen Hossain section starts here*/
+    .skf-simeen-hossain-section {
+        background-position-x: -10em;
+    }
+    .skf-simeen-hossain-section-div {
+
+    }
+    .skf-simeen-hossain-container-fluid {
+
+    }
+    .skf-simeen-hossain-row {
+        text-align: center;
+        padding: 0 10%;
+        margin-top: 4%;
+        margin-bottom: 10px;
+    }
+    .skf-simeen-hossain-img-div {
+        height: 100%;
+        transform: translate(5%, 0%);
+        -webkit-transform: translate(5%, 0%);
+        -moz-transform: translate(5%, 0%);
+    }
+    .skf-simeen-hossain-img {
+    }
+    .skf-simeen-hossain-row .simeen-hossain-h1 {
+        margin-bottom: 5px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p1 {
+        margin-bottom: 0px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p2 {
+        margin-bottom: 10px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p3 {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-h1 {
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph.designation-name {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: -8px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph.designation {
+        font-size: 16px;
+        margin-bottom: -8px;
+    }
+
+    /*intro-page Simeen Hossain section ends here*/
+
+
+    /*********************************Global Presence page Starts here*********************************/
+    .custom-flag-holder-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+    }
+    /******************************Global Presence page ends here************************************/
+
+
+    /********************************************************** GLOBAL AUDIT PAGE STARTS HERE **********************************************************/
+    .container.custom-about-skf-container.custom-global-audit-container {
+        max-width: 100% !important;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .custom-about-skf-row.custom-global-audit-row {
+        /*padding: 38px 38px;*/
+        margin-left: 0 !important;
+    }
+
+    .custom-about-skf-p.skf-paragraph.custom-global-audit-paragraph {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        text-align: left;
+    }
+
+    /********************************************************** GLOBAL AUDIT PAGE ENDS HERE**********************************************************/
+
+    /********************************************************** ACCREDITATIONS PAGE STARTS HERE**********************************************************/
+
+    .custom-about-skf-p.skf-paragraphh.custom-accreditations-paragraph {
+        margin-bottom: 0px;
+    }
+
+    /********************************************************** ACCREDITATIONS PAGE ENDS HERE**********************************************************/
+
+    .footer-img-div{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .social-icons-div {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+    }
+
+    .flex-control-nav li {
+        width: 128px !important;
+    }
+    .summary.entry-summary {
+        margin-top: 60px;
+    }
+
+    .yith-s {
+        font-size: 1rem;
+        height: calc(2.25rem + 2px) !important;
+    }
+    .skf-intro-page-history-text-row {
+        position: relative;
+    }
+    .col-md-6.offset-6.skf-intro-page-history-main-col06 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-left: 0 !important;
+    }
+    .skf-intro-page-history-text-inner-row {
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        padding: 0 2% 0 10%;
+    }
+    .skf-intro-page-history-text-header-bottom, .skf-intro-page-history-text {
+        width: 100%;
+    }
+    .transcom-skf-values-svg-img-col02 {
+        margin-left: 0rem;
+    }
+    .transcom-skf-values-content-wrap {
+        padding-bottom: 0;
+    }
+    .cd-horizontal-timeline .events a::after {
+        bottom: -12px !important;
+        height: 25px !important;
+        width: 25px !important;
+    }
+    .custom-about-skf-row.custom-global-audit-row {
+        position: relative;
+        width: 670px;
+        /* padding: 38px 100px; */
+        margin-left: 0 !important;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+    }
+    .row.custom-about-skf-row.custom-global-audit-row.custom-mnc-ties-row {
+        position: relative;
+        width: 100%;
+        padding: 50px 20px !important;
+        margin-left: 0 !important;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+    }
+
+    .custom-about-skf-p.skf-paragraph.custom-global-audit-paragraph {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        text-align: left;
+    }
+    .global-audit-img-div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .modal-open {
+        overflow-y: visible;
+        margin-right: 0px;
+    }
+
+    .map-location-marker-rnp {
+        top: 17%;
+        right: 76%;
+    }
+    .map-location-marker-raj {
+        top: 37%;
+        right: 74%;
+    }
+
+    .map-location-marker-mns {
+        top: 32%;
+        right: 46%;
+    }
+
+    .map-location-marker-dhk {
+        top: 49%;
+        right: 51%;
+
+    }
+
+    .map-location-marker-khl {
+        top: 63%;
+        right: 68%;
+    }
+
+    .map-location-marker-bar {
+        top: 69%;
+        right: 50%;
+    }
+    .map-location-marker-shl {
+        top: 35%;
+        right: 19%;
+    }
+    .map-location-marker-ctg {
+        top: 67%;
+        right: 13%;
+    }
+
+
+    .modal.fade .modal-dialog {
+        -webkit-transform: translate(-100%, 34%);
+        transform: translate(-100%, 34%);
+    }
+    .modal.show .modal-dialog {
+        -webkit-transform: translate(-23%, 34%);
+        transform: translate(-23%, 34%);
+    }
+    .patient-service-location{
+        top: 33%;
+        left: 10%;
+        width: 80%;
+        opacity: .5;
+    }
+    .global-audit-img-div.custom-mnc-ties-img-div {
+        padding: 0;
+    }
+    .global-audit-img-div.custom-mnc-ties-img-div img {
+        width: 180px;
+        height: 180px;
+    }
+    .custom-about-skf-row.custom-global-audit-row.custom-mnc-ties-row.glaxo-smith-kline-row,
+    .custom-mnc-ties-row.novo-nordisk-row, .custom-mnc-ties-row.servier-row {
+        position: relative;
+        top: -60px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .custom-skf-product-page-welcome-image{
+        padding: 100px 0 !important;
+    }
+
+    /*Starting Common Styles for Header and Paragraph*/
+    #primary-menu ul li > a {
+        color: #555;
+    }
+    body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover a {
+        color: #007dbe !important;
+    }
+    label {
+        font-size: 11px;
+    }
+    small {
+        font-size: 12px;
+    }
+    .carousel-control-next.custom-carousel-control-next, .carousel-control-prev.custom-carousel-control-prev {
+        width: 30px;
+        height: 0px;
+    }
+    .carousel-control-next.custom-carousel-control-next, .carousel-control-prev.custom-carousel-control-prev {
+        top: 45%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+    }
+    .carousel-caption-holder {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -61%);
+        -webkit-transform: translate(-50%, -61%);
+        -moz-transform: translate(-50%, -61%);
+    }
+
+    .carousel-caption-h1 {
+        margin-bottom: 0px;
+    }
+    .carousel-caption-h1 {
+        font-size: 24px;
+    }
+    .carousel-caption-h1 .custom-carousel-caption-h1-span {
+        font-size: 24px;
+    }
+    .carousel-caption-p {
+        font-size: 18px;
+    }
+    .skf-welcome-slider-header{
+
+    }
+    .skf-welcome-slider-paragraph{
+
+    }
+    .heading-block .skf-header {
+        font-size: 30px;
+    }
+    .heading-block ~ .skf-paragraph:not(.lead) {
+        font-size: 20px;
+    }
+    .skf-header {
+        font-size: 30px;
+    }
+
+    .skf-paragraph {
+        font-size: 20px;
+    }
+    /*Ending Common Styles for Header and Paragraph*/
+
+
+
+    /*Staring of about-skf section*/
+    .heading-block ~ .custom-about-skf-p.skf-paragraph:not(.lead) {
+        text-align: justify;
+        margin-bottom: 50px;
+        padding: 0 10px 0 10px;
+    }
+    .grid figure p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 70.5%;
+    }
+    #Layer_1 {
+        width: 165%;
+        margin-bottom: -70%;
+        margin-left: -32%;
+    }
+    /*Ending of about-skf-section*/
+
+
+    /*Starting of skf-facility Section*/
+    .custom-skf-facility-div {
+        position: relative;
+        top: 10%;
+        left: 0%;
+        text-align: center;
+        transform: translate(0%,0%);
+        -webkit-transform: translate(0%,0%);
+        -moz-transform: translate(0%,0%);
+    }
+    /*Ending of skf-facility Section*/
+
+
+
+    /*Starting of skf-pharma Section*/
+    .custom-skf-pharma-video-div {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,0%);
+        -webkit-transform: translate(-50%,0%);
+        -moz-transform: translate(-50%,0%);
+    }
+    .col-md-6.custom-skf-facility-content-col{
+        margin-bottom: 80px;
+    }
+    /*Ending of skf-pharma Section*/
+
+
+    /*Starting of skf-globe Section*/
+    #globe, #clouds1, #clouds2 {
+        width: 389px;
+        height: 398px;
+    }
+    .custom-skf-globe-div {
+        width: 100%;
+        padding: 0 20px !important;
+    }
+    /*Ending of skf-globe Section*/
+
+    /* three col sec adjust paragraph font size*/
+    .three-col-sec p {
+        font-size: 12px;
+    }
+    .grid {
+        position: relative;
+        margin: 0 auto;
+        padding: 1em 0 4em;
+        max-width: 400px;
+        list-style: none;
+        text-align: center;
+        padding-left: 20px;
+    }
+    .grid figure {
+        max-width: 480px;
+        max-height: 360px;
+        width: 80%;
+    }
+    /*Ending of three col sec*/
+
+    /*Starting of footer-section*/
+    .footer-container{
+        overflow: hidden;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #footer .footer-widgets-wrap-for-infomation {
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .footer-col-one-third-left {
+        transform: translateX(37%);
+        -webkit-transform: translateX(37%);
+        -moz-transform: translateX(37%);
+        -ms-transform: translateX(37%);
+    }
+    .footer-col-one-third-right{
+        transform: translateX(37%);
+        -webkit-transform: translateX(37%);
+        -moz-transform: translateX(37%);
+        -ms-transform: translateX(37%);
+        top: 0em
+    }
+    .footer-col-one-third-img{
+        top: 0em;
+        transform: translateX(37%);
+        -webkit-transform: translateX(37%);
+        -moz-transform: translateX(37%);
+        -ms-transform: translateX(37%);
+    }
+    #footer .footer-widgets-wrap-for-social-icons {
+        padding-top: 0;
+        padding-bottom: 160px;
+        padding-left: 10px;
+    }
+    .copyrights-menu {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        line-height: 1.8;
+    }
+    #copyrights {
+        padding: 13px 0;
+        padding-bottom: 10px;
+    }
+    #copyrights .col_half:last-child {
+        display: inherit !important;
+    }
+    /*Ending of footer-section*/
+
+
+
+    /***********************************************************INTRODUCTION PAGE STARTS FROM HERE*************************************************************************************/
+
+    /*intro-page welcome-slider section starts here*/
+    #header.transparent-header + #page-title.page-title-parallax .container {
+        padding-top: 0;
+        position: absolute;
+        text-align: center;
+        top: 66%;
+        left: 50%;
+        transform: translate(-50%, -66%);
+        -webkit-transform: translate(-50%, -66%);
+        -moz-transform: translate(-50%, -66%);
+    }
+    /*intro-page welcome-slider section ends here*/
+
+
+    /*intro-page timeline-img section starts here*/
+    .skf-intro-page-timeline-office-section-div {
+        margin-top: 0%;
+    }
+    .skf-intro-page-small-timeline-img-div {
+        padding: 5%;
+    }
+    .skf-intro-page-small-timeline-img-mobile, .skf-intro-page-office-img-mobile {
+        display: inherit;
+    }
+    .skf-intro-page-small-timeline-img, .skf-intro-page-office-img {
+        display: none;
+    }
+    /*intro-page timeline section ends here*/
+
+
+    /*intro-page Latifur-Rahman section starts here*/
+    .skf-latifur-rahman-row {
+        text-align: center;
+        padding: 0 15px;
+    }
+    .skf-latifur-rahman-accolades-row {
+        text-align: center;
+        padding: 0 15px;
+    }
+    .skf-latifur-rahman-row .col-md-6 h5 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .skf-latifur-rahman-logo-02 {
+        margin-left: 8%;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-latifur-rahmain-paragraph {
+        text-align: center;
+        padding: 0;
+    }
+    .skf-latifur-rahman-row .col-md-12 h1{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .skf-latifur-rahman-accolades-row .col-sm-12 h1 {
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+    .skf-latifur-rahman-accolades-row {
+        margin-bottom: 50px;
+    }
+    .skf-latifur-rahman-accolades-row .col-sm-6 {
+        padding: 0 15px 15px 15px;
+    }
+    .skf-latifur-rahman-img-div {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        transform: translate(2%, 0%);
+        -webkit-transform: translate(2%, 0%);
+        -moz-transform: translate(2%, 0%);
+    }
+
+    /*intro-page Latifur-Rahman section ends here*/
+
+    /*intro-page Simeen Hossain section starts here*/
+    .skf-simeen-hossain-section {
+        background-position-x: -10em;
+    }
+    .skf-simeen-hossain-section-div {
+
+    }
+    .skf-simeen-hossain-container-fluid {
+
+    }
+    .skf-simeen-hossain-row {
+        text-align: center;
+        padding: 0 15px;
+        margin-top: 4%;
+        margin-bottom: 10px;
+    }
+    .skf-simeen-hossain-img-div {
+        height: 100%;
+    }
+    .skf-simeen-hossain-img {
+    }
+    .skf-simeen-hossain-row .simeen-hossain-h1 {
+        margin-bottom: 5px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p1 {
+        margin-bottom: 0px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p2 {
+        margin-bottom: 10px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p3 {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-h1 {
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph.designation-name {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: -10px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph.designation {
+        font-size: 16px;
+        margin-bottom: -20px;
+    }
+
+    /*intro-page Simeen Hossain section ends here*/
+
+    /*********************************Global Presence page Starts here*********************************/
+    .custom-flag-holder-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+    }
+
+    .custom-individual-flag-holder-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 45%;
+        flex: 0 0 45%;
+        width: 49%;
+    }
+    /******************************Global Presence page ends here************************************/
+
+
+    /********************************************************** GLOBAL AUDIT PAGE STARTS HERE **********************************************************/
+    .container.custom-about-skf-container.custom-global-audit-container {
+        max-width: 100% !important;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .custom-about-skf-row.custom-global-audit-row {
+        padding: 38px 38px;
+        margin-left: 0 !important;
+        text-align: center;
+    }
+
+    .custom-about-skf-p.skf-paragraph.custom-global-audit-paragraph {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        text-align: center;
+    }
+
+    /********************************************************** GLOBAL AUDIT PAGE ENDS HERE**********************************************************/
+
+    /********************************************************** ACCREDITATIONS PAGE STARTS HERE**********************************************************/
+
+    .custom-about-skf-p.skf-paragraphh.custom-accreditations-paragraph {
+        margin-bottom: 0px;
+    }
+
+    /********************************************************** ACCREDITATIONS PAGE ENDS HERE**********************************************************/
+
+    .footer-img-div{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .social-icons-div {
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+    }
+    .modal-open {
+        overflow-y: visible;
+        margin-right: 0px;
+    }
+
+    .map-location-marker-rnp {
+        top: 18%;
+        right: 76%;
+    }
+    .map-location-marker-raj {
+        top: 37%;
+        right: 74%;
+    }
+
+    .map-location-marker-mns {
+        top: 33%;
+        right: 46%;
+    }
+
+    .map-location-marker-dhk {
+        top: 49%;
+        right: 51%;
+
+    }
+
+    .map-location-marker-khl {
+        top: 63%;
+        right: 68%;
+    }
+
+    .map-location-marker-bar {
+        top: 69%;
+        right: 50%;
+    }
+    .map-location-marker-shl {
+        top: 35%;
+        right: 19%;
+    }
+    .map-location-marker-ctg {
+        top: 66%;
+        right: 13%;
+    }
+    .modal.fade .modal-dialog {
+        -webkit-transform: translate(-100%, 34%);
+        transform: translate(-100%, 34%);
+    }
+    .modal.show .modal-dialog {
+        -webkit-transform: translate(-4%, 34%);
+        transform: translate(-4%, 34%);
+    }
+    .patient-service-location{
+        top: 33%;
+        left: 10%;
+        width: 80%;
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 322px) {
+
+    .custom-skf-product-page-welcome-image {
+        padding: 100px 0 !important;
+    }
+
+    /*Starting Common Styles for Header and Paragraph*/
+    #primary-menu ul li > a {
+        color: #555;
+    }
+    body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover a {
+        color: #007dbe !important;
+    }
+    label {
+        font-size: 11px;
+    }
+    small {
+        font-size: 12px;
+    }
+    .carousel-caption {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+    }
+    .carousel-caption.intro-page-carousel-caption {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-130%);
+        -webkit-transform: translate(-50%,-130%);
+        -moz-transform: translate(-50%,-130%);
+    }
+    .carousel-control-next.custom-carousel-control-next, .carousel-control-prev.custom-carousel-control-prev {
+        width: 30px;
+        height: 0px;
+    }
+    .carousel-control-next.custom-carousel-control-next, .carousel-control-prev.custom-carousel-control-prev {
+        top: 45%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+    }
+    .carousel-caption-holder {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -65%);
+        -webkit-transform: translate(-50%, -65%);
+        -moz-transform: translate(-50%, -65%);
+    }
+    .carousel-caption-h1 {
+        margin-bottom: -15px;
+    }
+    .carousel-caption-h1 {
+        font-size: 16px;
+    }
+    .carousel-caption-h1 .custom-carousel-caption-h1-span {
+        font-size: 16px;
+    }
+    .carousel-caption-p {
+        font-size: 13px;
+    }
+    .horizontal-divider {
+        margin-bottom: 10px;
+    }
+    .skf-welcome-slider-header{
+
+    }
+    .skf-welcome-slider-paragraph{
+
+    }
+    .heading-block .skf-header {
+        font-size: 26px;
+    }
+    .heading-block ~ .skf-paragraph:not(.lead) {
+        font-size: 18px;
+    }
+    .skf-header {
+        font-size: 26px;
+    }
+
+    .skf-paragraph {
+        font-size: 18px;
+    }
+    /*Ending Common Styles for Header and Paragraph*/
+
+
+
+    /*Staring of about-skf section*/
+    .heading-block ~ .custom-about-skf-p.skf-paragraph:not(.lead) {
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+        margin-bottom: 50px;
+        padding: 0 10px 0 10px;
+    }
+    .grid figure p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 70.5%;
+    }
+    #Layer_1 {
+        width: 165%;
+        margin-bottom: -70%;
+        margin-left: -32%;
+    }
+    /*Ending of about-skf-section*/
+
+
+    /*Starting of skf-facility Section*/
+    .custom-skf-facility-div {
+        position: relative;
+        top: 10%;
+        left: 0%;
+        text-align: center;
+        transform: translate(0%,0%);
+        -webkit-transform: translate(0%,0%);
+        -moz-transform: translate(0%,0%);
+    }
+    /*Ending of skf-facility Section*/
+
+
+
+    /*Starting of skf-globe Section*/
+    #main {
+        min-width: 322px;
+        padding-bottom: 0px;
+    }
+    #custom-globe-container{
+        top: -7em;
+    }
+    #globe, #clouds1, #clouds2 {
+        width: 289px;
+        height: 298px;
+    }
+    .custom-skf-globe-div {
+        width: 100%;
+        top: 80%;
+        padding: 0 20px !important;
+    }
+    /*Ending of skf-globe Section*/
+
+    /*Starting of skf-pharma Section*/
+    .custom-skf-pharma-video-div {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,0%);
+        -webkit-transform: translate(-50%,0%);
+        -moz-transform: translate(-50%,0%);
+    }
+    .col-md-6.custom-skf-facility-content-col{
+        margin-bottom: 80px;
+    }
+    /*Ending of skf-pharma Section*/
+
+
+    /* three col sec adjust paragraph font size*/
+    .three-col-sec p {
+        font-size: 12px;
+    }
+    .grid {
+        position: relative;
+        margin: 0 auto;
+        padding: 1em 0 4em;
+        max-width: 400px;
+        list-style: none;
+        text-align: center;
+        padding-left: 20px;
+    }
+    .grid figure {
+        max-width: 480px;
+        max-height: 360px;
+        width: 80%;
+    }
+    /*Ending of three col sec*/
+
+    /*Starting of footer-section*/
+    .footer-container {
+        overflow: hidden;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    #footer .footer-widgets-wrap-for-infomation {
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .footer-col-one-third-left {
+        transform: translateX(32%);
+        -webkit-transform: translateX(32%);
+        -moz-transform: translateX(32%);
+        -ms-transform: translateX(32%);
+    }
+
+    .footer-col-one-third-right {
+        transform: translateX(32%);
+        -webkit-transform: translateX(32%);
+        -moz-transform: translateX(32%);
+        -ms-transform: translateX(32%);
+        top: 0em
+    }
+
+    .footer-col-one-third-img {
+        top: 0em;
+        transform: translateX(32%);
+        -webkit-transform: translateX(32%);
+        -moz-transform: translateX(32%);
+        -ms-transform: translateX(32%);
+    }
+
+    #footer .footer-widgets-wrap-for-social-icons {
+        padding-top: 0;
+        padding-bottom: 160px;
+        padding-left: 10px;
+    }
+
+    .copyrights-menu {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        line-height: 1.8;
+    }
+
+    #copyrights {
+        padding: 13px 0;
+        padding-bottom: 10px;
+    }
+
+    #copyrights .col_half:last-child {
+        display: inherit !important;
+    }
+    /*Ending of footer-section*/
+
+
+
+    /***********************************************************INTRODUCTION PAGE STARTS FROM HERE*************************************************************************************/
+
+    /*intro-page welcome-slider section starts here*/
+    #header.transparent-header + #page-title.page-title-parallax .container {
+        padding-top: 0;
+        position: absolute;
+        text-align: center;
+        top: 66%;
+        left: 50%;
+        transform: translate(-50%, -66%);
+        -webkit-transform: translate(-50%, -66%);
+        -moz-transform: translate(-50%, -66%);
+    }
+    #page-title.page-title-parallax h1 {
+        font-size: 28px;
+    }
+    /*intro-page welcome-slider section ends here*/
+
+
+    /*intro-page timeline-img section starts here*/
+    .skf-intro-page-timeline-office-section-div {
+        margin-top: 0%;
+    }
+    .skf-intro-page-small-timeline-img-div {
+        padding: 5%;
+    }
+    .skf-intro-page-small-timeline-img-mobile, .skf-intro-page-office-img-mobile {
+        display: inherit;
+    }
+    .skf-intro-page-small-timeline-img, .skf-intro-page-office-img {
+        display: none;
+    }
+    /*intro-page timeline section ends here*/
+
+    /*intro-page Latifur-Rahman section starts here*/
+    .skf-latifur-rahman-row {
+        text-align: center;
+        padding: 0 15px;
+    }
+    .skf-latifur-rahman-accolades-row {
+        text-align: center;
+        padding: 0 15px;
+    }
+    .skf-latifur-rahman-row .col-md-6 h5 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-latifur-rahmain-paragraph {
+        text-align: center;
+        padding: 0;
+    }
+    .skf-latifur-rahman-row .col-md-12 h1{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .skf-latifur-rahman-accolades-row .col-sm-12 h1 {
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+    .skf-latifur-rahman-accolades-row {
+        margin-bottom: 50px;
+    }
+    .skf-latifur-rahman-accolades-row .col-sm-6 {
+        padding: 0 15px 15px 15px;
+    }
+    .skf-latifur-rahman-img-div {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        transform: translate(2%, 0%);
+        -webkit-transform: translate(2%, 0%);
+        -moz-transform: translate(2%, 0%);
+    }
+
+    /*intro-page Latifur-Rahman section ends here*/
+
+    /*intro-page Simeen Hossain section starts here*/
+    .skf-simeen-hossain-section {
+        background-position-x: -10em;
+    }
+    .skf-simeen-hossain-section-div {
+
+    }
+    .skf-simeen-hossain-container-fluid {
+
+    }
+    .skf-simeen-hossain-row {
+        text-align: center;
+        padding: 0 15px;
+        margin-top: 4%;
+        margin-bottom: 10px;
+    }
+    .skf-simeen-hossain-img-div {
+        height: 100%;
+    }
+    .skf-simeen-hossain-img {
+    }
+    .skf-simeen-hossain-row .simeen-hossain-h1 {
+        margin-bottom: 5px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p1 {
+        margin-bottom: 0px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p2 {
+        margin-bottom: 10px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p3 {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-h1 {
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph.designation-name {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: -10px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph.designation {
+        font-size: 16px;
+        margin-bottom: -20px;
+    }
+    /*intro-page Simeen Hossain section ends here*/
+
+    /*********************************Global Presence page Starts here*********************************/
+    .custom-flag-holder-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+    }
+
+    .custom-individual-flag-holder-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 45%;
+        flex: 0 0 45%;
+        width: 45%;
+    }
+    /******************************Global Presence page ends here************************************/
+
+
+    /********************************************************** GLOBAL AUDIT PAGE STARTS HERE **********************************************************/
+    .container.custom-about-skf-container.custom-global-audit-container {
+        max-width: 100% !important;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .custom-about-skf-row.custom-global-audit-row {
+        padding: 38px 38px;
+        margin-left: 0 !important;
+        text-align: center;
+    }
+
+    .custom-about-skf-p.skf-paragraph.custom-global-audit-paragraph {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        text-align: center;
+    }
+
+    /********************************************************** GLOBAL AUDIT PAGE ENDS HERE**********************************************************/
+
+    /********************************************************** ACCREDITATIONS PAGE STARTS HERE**********************************************************/
+
+    .custom-about-skf-p.skf-paragraphh.custom-accreditations-paragraph {
+        margin-bottom: 0px;
+    }
+
+    /********************************************************** ACCREDITATIONS PAGE ENDS HERE**********************************************************/
+
+    .footer-img-div{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .social-icons-div {
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+    }
+    .modal-open {
+        overflow-y: visible;
+        margin-right: 0px;
+    }
+
+
+    .map-location-marker-rnp {
+        top: 22%;
+        right: 75%;
+        width: 5%;
+    }
+    .map-location-marker-raj {
+        top: 40%;
+        right: 72%;
+        width: 5%;
+    }
+
+    .map-location-marker-mns {
+        top: 36%;
+        right: 45%;
+        width: 5%;
+    }
+
+    .map-location-marker-dhk {
+        top: 51%;
+        right: 51%;
+        width: 5%;
+    }
+
+
+    .map-location-marker-khl {
+        top: 64%;
+        right: 67%;
+        width: 5%;
+    }
+
+    .map-location-marker-bar {
+        top: 70%;
+        right: 50%;
+        width: 5%;
+    }
+    .map-location-marker-shl {
+        top: 38%;
+        right: 20%;
+        width: 5%;
+    }
+    .map-location-marker-ctg {
+        top: 67%;
+        right: 15%;
+        width: 5%;
+    }
+
+
+
+    .custom-card-map-locator-col {
+        margin: 0;
+        float: right;
+        transform: translate(0%,-16%);
+        -web-kit-transform: translateY(0%,-16%);
+    }
+    .modal.fade .modal-dialog {
+        -webkit-transform: translate(-100%, 14%);
+        transform: translate(-100%, 14%);
+    }
+
+    .modal.show .modal-dialog {
+        -webkit-transform: translate(-4%, 14%);
+        transform: translate(-4%, 14%);
+    }
+    .patient-service-location{
+        top: 35%;
+        left: 10%;
+        width: 80%;
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 321px){
+
+    .custom-skf-product-page-welcome-image {
+        padding: 100px 0 !important;
+    }
+
+    /*Starting Common Styles for Header and Paragraph*/
+    #primary-menu ul li > a {
+        color: #555;
+    }
+    body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover a {
+        color: #007dbe !important;
+    }
+    label {
+        font-size: 11px;
+    }
+    small {
+        font-size: 12px;
+    }
+    .carousel-control-next.custom-carousel-control-next, .carousel-control-prev.custom-carousel-control-prev {
+        width: 30px;
+        height: 0px;
+    }
+    .carousel-control-next.custom-carousel-control-next, .carousel-control-prev.custom-carousel-control-prev {
+        top: 45%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+    }
+    .carousel-caption-holder {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -65%);
+        -webkit-transform: translate(-50%, -65%);
+        -moz-transform: translate(-50%, -65%);
+    }
+    .carousel-caption.intro-page-carousel-caption {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-130%);
+        -webkit-transform: translate(-50%,-130%);
+        -moz-transform: translate(-50%,-130%);
+    }
+    .carousel-caption-h1 {
+        margin-bottom: -15px;
+    }
+    .carousel-caption-h1 {
+        font-size: 16px;
+    }
+    .carousel-caption-h1 .custom-carousel-caption-h1-span {
+        font-size: 16px;
+    }
+    .carousel-caption-p {
+        font-size: 13px;
+    }
+    .horizontal-divider {
+        margin-bottom: 10px;
+    }
+    .skf-welcome-slider-header{
+
+    }
+    .skf-welcome-slider-paragraph{
+
+    }
+    .heading-block .skf-header {
+        font-family: 'Montserrat';
+        font-size: 22px;
+    }
+    .heading-block ~ .skf-paragraph:not(.lead) {
+        font-family: 'Montserrat';
+        font-size: 16px;
+    }
+    .skf-header {
+        font-family: 'Montserrat';
+        font-size: 22px;
+    }
+
+    .skf-paragraph {
+        font-family: 'Montserrat';
+        font-size: 16px;
+    }
+    /*Ending Common Styles for Header and Paragraph*/
+
+
+
+    /*Staring of about-skf section*/
+    .heading-block ~ .custom-about-skf-p.skf-paragraph:not(.lead) {
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+        margin-bottom: 50px;
+        padding: 0 10px 0 10px;
+    }
+    .grid figure {
+        min-width: 280px !important;
+    }
+    .grid figure p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 70.5%;
+    }
+    #Layer_1 {
+        width: 165%;
+        margin-left: -32%;
+        margin-bottom: -70%;
+    }
+    /*Ending of about-skf-section*/
+
+
+    /*Starting of skf-facility Section*/
+    .custom-skf-facility-div {
+        position: relative;
+        top: 10%;
+        left: 0%;
+        text-align: center;
+        transform: translate(0%,0%);
+        -webkit-transform: translate(0%,0%);
+        -moz-transform: translate(0%,0%);
+    }
+    /*Ending of skf-facility Section*/
+
+
+
+    /*Starting of skf-globe Section*/
+    #main {
+        min-width: 322px;
+        padding-bottom: 0px;
+    }
+    #custom-globe-container{
+        top: -7em;
+    }
+    #globe, #clouds1, #clouds2 {
+        width: 289px;
+        height: 298px;
+    }
+    .custom-skf-globe-div {
+        width: 100%;
+        top: 80%;
+        padding: 0 20px !important;
+    }
+    /*Ending of skf-globe Section*/
+
+    /*Starting of skf-pharma Section*/
+    .custom-skf-pharma-video-div {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,0%);
+        -webkit-transform: translate(-50%,0%);
+        -moz-transform: translate(-50%,0%);
+    }
+    .col-md-6.custom-skf-facility-content-col{
+        margin-bottom: 80px;
+    }
+    /*Ending of skf-pharma Section*/
+
+
+    /* three col sec adjust paragraph font size*/
+    .three-col-sec p {
+        font-size: 12px;
+    }
+    .grid {
+        position: relative;
+        margin: 0 auto;
+        padding: 1em 0 4em;
+        max-width: 400px;
+        list-style: none;
+        text-align: center;
+        padding-left: 20px;
+    }
+    .grid figure {
+        max-width: 480px;
+        max-height: 360px;
+        width: 80%;
+    }
+    /*Ending of three col sec*/
+
+
+    /*Starting of footer-section*/
+    .footer-container{
+        overflow: hidden;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #footer .footer-widgets-wrap-for-infomation {
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .footer-col-one-third-left {
+        transform: translateX(26%);
+        -webkit-transform: translateX(26%);
+        -moz-transform: translateX(26%);
+        -ms-transform: translateX(26%);
+    }
+    .footer-col-one-third-right{
+        transform: translateX(26%);
+        -webkit-transform: translateX(26%);
+        -moz-transform: translateX(26%);
+        -ms-transform: translateX(26%);
+        top: 0em
+    }
+    .footer-col-one-third-img{
+        top: 0em;
+        transform: translateX(26%);
+        -webkit-transform: translateX(26%);
+        -moz-transform: translateX(26%);
+        -ms-transform: translateX(26%);
+    }
+    #footer .footer-widgets-wrap-for-social-icons {
+        padding-top: 0;
+        padding-bottom: 160px;
+        padding-left: 10px;
+    }
+    .copyrights-menu {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        line-height: 1.8;
+    }
+
+    #copyrights {
+        padding: 13px 0;
+        padding-bottom: 10px;
+    }
+    #copyrights .col_half:last-child {
+        display: inherit !important;
+    }
+    /*Ending of footer-section*/
+
+
+
+    /***********************************************************INTRODUCTION PAGE STARTS FROM HERE*************************************************************************************/
+
+    /*intro-page welcome-slider section starts here*/
+    #header.transparent-header + #page-title.page-title-parallax .container {
+        padding-top: 0;
+        position: absolute;
+        text-align: center;
+        top: 66%;
+        left: 50%;
+        transform: translate(-50%, -66%);
+        -webkit-transform: translate(-50%, -66%);
+        -moz-transform: translate(-50%, -66%);
+    }
+    #page-title.page-title-parallax h1 {
+        font-size: 28px;
+    }
+    /*intro-page welcome-slider section ends here*/
+
+
+    /*intro-page timeline-img section starts here*/
+    .skf-intro-page-timeline-office-section-div {
+        margin-top: 0%;
+    }
+    .skf-intro-page-small-timeline-img-div {
+        padding: 5%;
+    }
+    .skf-intro-page-small-timeline-img-mobile, .skf-intro-page-office-img-mobile {
+        display: inherit;
+    }
+    .skf-intro-page-small-timeline-img, .skf-intro-page-office-img {
+        display: none;
+    }
+    /*intro-page timeline section ends here*/
+
+    /*intro-page Latifur-Rahman section starts here*/
+    .skf-latifur-rahman-row {
+        text-align: center;
+        padding: 0 15px;
+    }
+    .skf-latifur-rahman-accolades-row {
+        text-align: center;
+        padding: 0 15px;
+    }
+    .skf-latifur-rahman-row .col-md-6 h5 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-latifur-rahmain-paragraph {
+        text-align: center;
+        padding: 0;
+    }
+    .skf-latifur-rahman-row .col-md-12 h1{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .skf-latifur-rahman-accolades-row .col-sm-12 h1 {
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+    .skf-latifur-rahman-accolades-row {
+        margin-bottom: 50px;
+    }
+    .skf-latifur-rahman-accolades-row .col-sm-6 {
+        padding: 0 15px 15px 15px;
+    }
+    .skf-latifur-rahman-img-div {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        transform: translate(2%, 0%);
+        -webkit-transform: translate(2%, 0%);
+        -moz-transform: translate(2%, 0%);
+    }
+
+    /*intro-page Latifur-Rahman section ends here*/
+
+
+    /*intro-page Simeen Hossain section starts here*/
+    .skf-simeen-hossain-section {
+        background-position-x: -10em;
+    }
+    .skf-simeen-hossain-section-div {
+
+    }
+    .skf-simeen-hossain-container-fluid {
+
+    }
+    .skf-simeen-hossain-row {
+        text-align: center;
+        padding: 0 15px;
+        margin-top: 4%;
+        margin-bottom: 10px;
+    }
+    .skf-simeen-hossain-img-div {
+        height: 100%;
+    }
+    .skf-simeen-hossain-img {
+    }
+    .skf-simeen-hossain-row .simeen-hossain-h1 {
+        margin-bottom: 5px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p1 {
+        margin-bottom: 0px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p2 {
+        margin-bottom: 10px;
+    }
+    .skf-simeen-hossain-row .simeen-hossain-p3 {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph.designation-name {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: -10px;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-simeen-hossain-paragraph.designation {
+        font-size: 14px;
+        margin-bottom: -20px;
+    }
+    /*intro-page Simeen Hossain section ends here*/
+
+
+    /*********************************Global Presence page Starts here*********************************/
+    .custom-flag-holder-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+    }
+
+    .custom-individual-flag-holder-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 45%;
+        flex: 0 0 45%;
+        width: 45%;
+    }
+    /******************************Global Presence page ends here************************************/
+
+
+    /********************************************************** GLOBAL AUDIT PAGE STARTS HERE **********************************************************/
+    .container.custom-about-skf-container.custom-global-audit-container {
+        max-width: 100% !important;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .custom-about-skf-row.custom-global-audit-row {
+        padding: 38px 38px;
+        margin-left: 0 !important;
+        text-align: center;
+    }
+
+    .custom-about-skf-p.skf-paragraph.custom-global-audit-paragraph {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        text-align: center;
+    }
+
+    /********************************************************** GLOBAL AUDIT PAGE ENDS HERE**********************************************************/
+
+    /********************************************************** ACCREDITATIONS PAGE STARTS HERE**********************************************************/
+
+    .custom-about-skf-p.skf-paragraphh.custom-accreditations-paragraph {
+        margin-bottom: 0px;
+    }
+
+    /********************************************************** ACCREDITATIONS PAGE ENDS HERE**********************************************************/
+
+    .footer-img-div{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .social-icons-div {
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+    }
+    .modal-open {
+        overflow-y: visible;
+        margin-right: 0px;
+    }
+
+
+    .map-location-marker-rnp {
+        top: 24%;
+        right: 75%;
+        width: 5%;
+    }
+    .map-location-marker-raj {
+        top: 41%;
+        right: 72%;
+        width: 5%;
+    }
+
+    .map-location-marker-mns {
+        top: 38%;
+        right: 46%;
+        width: 5%;
+    }
+
+    .map-location-marker-dhk {
+        top: 52%;
+        right: 51%;
+        width: 5%;
+    }
+
+
+    .map-location-marker-khl {
+        top: 64%;
+        right: 67%;
+        width: 5%;
+    }
+
+    .map-location-marker-bar {
+        top: 70%;
+        right: 50%;
+        width: 5%;
+    }
+    .map-location-marker-shl {
+        top: 40%;
+        right: 21%;
+        width: 5%;
+    }
+    .map-location-marker-ctg {
+        top: 68%;
+        right: 15%;
+        width: 5%;
+    }
+
+
+    .custom-card-map-locator-col {
+        margin: 0;
+        float: right;
+        transform: translate(0%,-16%);
+        -web-kit-transform: translateY(0%,-16%);
+    }
+    .modal.fade .modal-dialog {
+        -webkit-transform: translate(-100%, 14%);
+        transform: translate(-100%, 14%);
+    }
+
+    .modal.show .modal-dialog {
+        -webkit-transform: translate(-4%, 14%);
+        transform: translate(-4%, 14%);
+    }
+    .patient-service-location{
+        top: 35%;
+        left: 10%;
+        width: 80%;
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #header-wrap {
+        background: #fff;
+    }
+    .custom-header-option-for-mobile-only {
+        display: inherit;
+    }
+    .product-col-download-text {
+        font-size: 14px;
+        width: 84%;
+    }
+    .woocommerce div.product div.summary {
+        padding-left: 0px;
+    }
+    .product-col-download-logo {
+        flex: 0 0 16% !important;
+    }
+    .yith-s {
+        font-size: 1rem;
+        height: calc(2.25rem + 2px) !important;
+    }
+    .woocommerce div.product .product_title{
+        font-size: 31px;
+    }
+    .woocommerce-product-details__short-description h4 {
+        font-size: 18px;
+    }
+    .generic-name-div span, .therapeutic-name-div span {
+        font-size: 14px !important;
+    }
+
+    .skf-intro-page-history-text-row {
+        position: relative;
+        text-align: center;
+    }
+    .col-md-6.offset-6.skf-intro-page-history-main-col06 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-left: 0 !important;
+        padding: 0;
+    }
+    .skf-intro-page-history-text-inner-row {
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        padding: 0 2% 0 10%;
+        margin: auto !important;
+    }
+    .skf-intro-page-history-text-header-bottom, .skf-intro-page-history-text {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .skf-intro-page-history-img-col {
+        position: relative;
+        height: 140px;
+    }
+    .transcom-skf-values-svg-img-holder svg {
+        width: 150px;
+    }
+    .transcom-skf-values-content-wrap {
+        padding-bottom: 0;
+    }
+    .global-audit-img-div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .custom-about-skf-p.skf-paragraphh small {
+        font-size: 14px;
+    }
+    .custom-about-skf-row.custom-global-audit-row {
+        position: relative;
+        width: 310px;
+        /* padding: 38px 100px; */
+        margin-left: 0 !important;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+    }
+    .custom-about-skf-row.custom-global-audit-row.custom-mnc-ties-row {
+        position: relative;
+        width: 100%;
+        padding: 20px 20px !important;
+        margin-left: 0 !important;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        text-align: center;
+    }
+
+    .custom-about-skf-p.skf-paragraph.custom-global-audit-paragraph {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        text-align: left;
+    }
+    .custom-about-skf-p.skf-paragraph.custom-global-audit-paragraph.custom-mnc-ties-paragraph {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        text-align: center;
+    }
+    .global-audit-img-div {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 991px) {
+
+    .custom-continent-image-col {
+        max-width: 100%;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+}
+
+/*** Responsive settings end here ***/

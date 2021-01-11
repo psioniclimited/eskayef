@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[Temporary Virtual Tour]]></data>
+
+
+  <data name="en_panogroup18_title"><![CDATA[example  ]]></data>
+
+  <data name="en_pano11_title"><![CDATA[Temporary view 4]]></data>
+  <data name="en_spotpoint41_tooltip"><![CDATA[example view 2]]></data>
+  <data name="en_pano13_title"><![CDATA[Temporary view 2]]></data>
+  <data name="en_pano15_title"><![CDATA[Temporary view 3]]></data>
+  <data name="en_spotpoint45_tooltip"><![CDATA[example view 1]]></data>
+  <data name="en_pano17_title"><![CDATA[Temporary view 1]]></data>
+  <data name="en_spotpoint19_tooltip"><![CDATA[example view 3]]></data>
+
+
+
+
+
+
+  <data name="en_controlBar_dockedThumbnailsprevSceneTip"><![CDATA[Previous panorama]]></data>
+  <data name="en_controlBar_dockedThumbnailsnextSceneTip"><![CDATA[Next panorama]]></data>
+  <data name="en_controlBar_dockedThumbnailszoomInTip"><![CDATA[Zoom in]]></data>
+  <data name="en_controlBar_dockedThumbnailszoomOutTip"><![CDATA[Zoom out]]></data>
+  <data name="en_controlBar_dockedThumbnailsmoveLeftTip"><![CDATA[Move left]]></data>
+  <data name="en_controlBar_dockedThumbnailsmoveRightTip"><![CDATA[Move right]]></data>
+  <data name="en_controlBar_dockedThumbnailsmoveUpTip"><![CDATA[Move up]]></data>
+  <data name="en_controlBar_dockedThumbnailsmoveDownTip"><![CDATA[Move down]]></data>
+  <data name="en_controlBar_dockedThumbnailsopenFsTip"><![CDATA[Enter fullscreen]]></data>
+  <data name="en_controlBar_dockedThumbnailscloseFsTip"><![CDATA[Exit fullscreen]]></data>
+  <data name="en_controlBar_dockedThumbnailsautorotateOnTip"><![CDATA[Start autorotation]]></data>
+  <data name="en_controlBar_dockedThumbnailsautorotateOffTip"><![CDATA[Stop autorotation]]></data>
+  <data name="en_controlBar_dockedThumbnailsautotourOnTip"><![CDATA[Start automatic tour]]></data>
+  <data name="en_controlBar_dockedThumbnailsautotourOffTip"><![CDATA[Stop automatic tour]]></data>
+  <data name="en_controlBar_dockedThumbnailsdisplayHelpTip"><![CDATA[Show help screen]]></data>
+  <data name="en_controlBar_dockedThumbnailshideHelpTip"><![CDATA[Hide help screen]]></data>
+  <data name="en_controlBar_dockedThumbnailsdisplayControlsTip"><![CDATA[Show controls]]></data>
+  <data name="en_controlBar_dockedThumbnailshideControlsTip"><![CDATA[Hide controls]]></data>
+  <data name="en_controlBar_dockedThumbnailsctrlmodeDragTip"><![CDATA[Change control mode]]></data>
+  <data name="en_controlBar_dockedThumbnailsctrlmodeMoveTip"><![CDATA[Change control mode]]></data>
+
+
+
+
+
+
+
+
+</krpano>

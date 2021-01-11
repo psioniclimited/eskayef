@@ -1,0 +1,105 @@
+
+
+
+
+
+
+.slideshow {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slideshow-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: no-repeat 50% 50%;
+  background-size: cover;
+  animation-name: kenburns;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-fill-mode: forwards;
+
+  animation-duration: 15s;
+  opacity: 1;
+  /*z-index: 3;*/
+  transform: scale(1.2);
+}
+
+@-webkit-keyframes kenburns {
+  from {
+    transform: scale(1);
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari and Chrome */
+    -o-transform: scale(1); /* Opera */
+    -moz-transform: scale(1); /* Firefox */
+  }
+  to {
+    transform: scale(1.3);
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari and Chrome */
+    -o-transform: scale(1.3); /* Opera */
+    -moz-transform: scale(1.3); /* Firefox */
+  }
+
+}
+
+
+
+
+@keyframes kenburns {
+
+  from {
+    transform: scale(1);
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari and Chrome */
+    -o-transform: scale(1); /* Opera */
+    -moz-transform: scale(1); /* Firefox */
+  }
+  to {
+    transform: scale(1.3);
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari and Chrome */
+    -o-transform: scale(1.3); /* Opera */
+    -moz-transform: scale(1.3); /* Firefox */
+  }
+
+}
+
+.kenburns-h1 {
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  transform: translate3d(-50%, -50%, 0);
+  z-index: 99;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #0089d1;
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 1em 2em -1em rgba(0, 0, 0, 0.15);
+  padding: .1em .5em;
+  border-radius: .3em;
+  line-height: 1.5;
+}
+.kenburns-h1 small {
+  display: block;
+  text-transform: lowercase;
+  font-size: .7em;
+}
+.kenburns-h1 small:first-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  padding-bottom: .5em;
+}
+.kenburns-h1 small:last-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  padding-top: .5em;
+} 
+
+
